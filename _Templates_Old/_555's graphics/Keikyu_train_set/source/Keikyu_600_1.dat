@@ -1,0 +1,69 @@
+#-------------------------------------------------------------------------------
+#   Keikyu_600_1.dat
+#　　京浜急行　600形(初代700形)
+#
+#   著作権はありません。ご自由にどうぞ。    
+#　　製作者  555 
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=Keikyu M1c_700(first)
+copyright=555
+waytype=electrified_track
+freight=Passagiere
+speed=110
+gear=133
+payload=140
+power=300
+cost=1300000
+weight=35
+RunningCost=48
+Sound=2
+intro_year=1956
+intro_month=10
+retire_year=1966
+retire_month=4
+Constraint[Prev][0]=Keikyu M2c_700(first)
+Constraint[Prev][1]=Keikyu M2c_600(non cooler)
+Constraint[Prev][2]=Keikyu M2c_600(type1)
+Constraint[Prev][3]=Keikyu M2c_600(type2)
+Constraint[Prev][4]=none
+Constraint[Next][0]=Keikyu M2c_700(first)
+EmptyImage[S]=Keikyu_R700.0.0
+EmptyImage[E]=Keikyu_R700.0.1
+EmptyImage[SE]=Keikyu_R700.0.2
+EmptyImage[SW]=Keikyu_R700.0.3
+EmptyImage[N]=Keikyu_R700.0.4
+EmptyImage[W]=Keikyu_R700.0.5
+EmptyImage[NW]=Keikyu_R700.0.6
+EmptyImage[NE]=Keikyu_R700.0.7
+--------------------------------------------------------------------------------
+obj=vehicle
+name=Keikyu M2c_700(first)
+copyright=555
+waytype=electrified_track
+freight=Passagiere
+speed=110
+gear=133
+payload=140
+power=300
+cost=1300000
+weight=35
+RunningCost=48
+intro_year=1956
+intro_month=10
+retire_year=1966
+retire_month=4
+Constraint[Prev][0]=Keikyu M1c_700(first)
+Constraint[Next][0]=Keikyu M1c_700(first)
+Constraint[Next][1]=Keikyu M1c_600(non cooler)
+Constraint[Next][2]=Keikyu M1c_600
+Constraint[Next][3]=none
+EmptyImage[S]=Keikyu_R700.1.0
+EmptyImage[E]=Keikyu_R700.1.1
+EmptyImage[SE]=Keikyu_R700.1.2
+EmptyImage[SW]=Keikyu_R700.1.3
+EmptyImage[N]=Keikyu_R700.1.4
+EmptyImage[W]=Keikyu_R700.1.5
+EmptyImage[NW]=Keikyu_R700.1.6
+EmptyImage[NE]=Keikyu_R700.1.7
+-------------------------------------------------------------------------------

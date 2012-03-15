@@ -1,0 +1,111 @@
+#-------------------------------------------------------------------------------
+#   Keikyu_500_1.dat
+#　　京浜急行　500形(旧塗装)
+#
+#   著作権はありません。自由に使ってください。    
+#　　製作者 555 
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=Keikyu Mu_500(type1)
+copyright=555
+waytype=electrified_track
+freight=Passagiere
+speed=105
+gear=120
+payload=140
+power=440
+cost=1000000
+weight=40
+RunningCost=66
+Sound=2
+intro_year=1951
+intro_month=3
+retire_year=1956
+retire_month=3
+Constraint[Next][0]=Keikyu Ms_500(type1)
+Constraint[Next][1]=Keikyu Tcs_550(type1)
+EmptyImage[S]=Keikyu_500_1.0.0
+EmptyImage[E]=Keikyu_500_1.0.1
+EmptyImage[SE]=Keikyu_500_1.0.2
+EmptyImage[SW]=Keikyu_500_1.0.3
+EmptyImage[N]=Keikyu_500_1.0.4
+EmptyImage[W]=Keikyu_500_1.0.5
+EmptyImage[NW]=Keikyu_500_1.0.6
+EmptyImage[NE]=Keikyu_500_1.0.7
+--------------------------------------------------------------------------------
+obj=vehicle
+name=Keikyu Ms_500(type1)
+copyright=555
+waytype=electrified_track
+freight=Passagiere
+speed=105
+gear=120
+payload=140
+power=440
+cost=1000000
+weight=40
+RunningCost=66
+intro_year=1951
+intro_month=3
+retire_year=1956
+retire_month=3
+Constraint[Prev][0]=Keikyu Mu_500(type1)
+Constraint[Prev][1]=Keikyu Tcu_550(type1)
+EmptyImage[S]=Keikyu_500_1.1.0
+EmptyImage[E]=Keikyu_500_1.1.1
+EmptyImage[SE]=Keikyu_500_1.1.2
+EmptyImage[SW]=Keikyu_500_1.1.3
+EmptyImage[N]=Keikyu_500_1.1.4
+EmptyImage[W]=Keikyu_500_1.1.5
+EmptyImage[NW]=Keikyu_500_1.1.6
+EmptyImage[NE]=Keikyu_500_1.1.7
+-------------------------------------------------------------------------------
+obj=vehicle
+name=Keikyu Tcu_550(type1)
+copyright=555
+waytype=electrified_track
+freight=Passagiere
+speed=105
+payload=140
+cost=650000
+weight=30
+RunningCost=46
+Sound=2
+intro_year=1952
+intro_month=4
+retire_year=1956
+retire_month=3
+Constraint[Next][0]=Keikyu Ms_500(type1)
+EmptyImage[S]=Keikyu_500_1.2.0
+EmptyImage[E]=Keikyu_500_1.2.1
+EmptyImage[SE]=Keikyu_500_1.2.2
+EmptyImage[SW]=Keikyu_500_1.2.3
+EmptyImage[N]=Keikyu_500_1.2.4
+EmptyImage[W]=Keikyu_500_1.2.5
+EmptyImage[NW]=Keikyu_500_1.2.6
+EmptyImage[NE]=Keikyu_500_1.2.7
+--------------------------------------------------------------------------------
+obj=vehicle
+name=Keikyu Tcs_550(type1)
+copyright=555
+waytype=electrified_track
+freight=Passagiere
+speed=105
+payload=140
+cost=650000
+weight=30
+RunningCost=46
+intro_year=1952
+intro_month=4
+retire_year=1956
+retire_month=3
+Constraint[Prev][0]=Keikyu Mu_500(type1)
+EmptyImage[S]=Keikyu_500_1.3.0
+EmptyImage[E]=Keikyu_500_1.3.1
+EmptyImage[SE]=Keikyu_500_1.3.2
+EmptyImage[SW]=Keikyu_500_1.3.3
+EmptyImage[N]=Keikyu_500_1.3.4
+EmptyImage[W]=Keikyu_500_1.3.5
+EmptyImage[NW]=Keikyu_500_1.3.6
+EmptyImage[NE]=Keikyu_500_1.3.7
+-------------------------------------------------------------------------------

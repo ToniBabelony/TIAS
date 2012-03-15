@@ -1,0 +1,62 @@
+#-------------------------------------------------------------------------------
+#   Keikyu_420_1.dat
+#   京浜急行電鉄　420形(ツートンカラー)
+#
+#   著作権はありません。自由に使ってください。    
+#　　製作者 555
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=Keikyu Mu_420(type1)
+waytype=electrified_track
+freight=Passagiere
+speed=105
+payload=140
+cost=900000
+power=448
+gear=122
+weight=39
+Sound=2
+RunningCost=67
+intro_year=1949
+intro_month=3
+retire_year=1965
+retire_month=3
+Constraint[Next][0]=Keikyu Ms_420(type1)
+Constraint[Next][1]=Keikyu Mu_420(type1)
+Constraint[Next][2]=Keikyu Mc_300(type1)
+EmptyImage[S]=Keikyu_400_2.2.0
+EmptyImage[E]=Keikyu_400_2.2.1
+EmptyImage[SE]=Keikyu_400_2.2.2
+EmptyImage[SW]=Keikyu_400_2.2.3
+EmptyImage[N]=Keikyu_400_2.2.4
+EmptyImage[W]=Keikyu_400_2.2.5
+EmptyImage[NW]=Keikyu_400_2.2.6
+EmptyImage[NE]=Keikyu_400_2.2.7
+-------------------------------------------------------------------------------
+obj=vehicle
+name=Keikyu Ms_420(type1)
+waytype=electrified_track
+freight=Passagiere
+speed=105
+payload=140
+cost=900000
+power=448
+gear=122
+weight=39
+RunningCost=67
+intro_year=1949
+intro_month=3
+retire_year=1965
+retire_month=3
+Constraint[Prev][0]=Keikyu Mu_420(type1)
+Constraint[Prev][1]=Keikyu Ms_420(type1)
+Constraint[Prev][2]=Keikyu Mc_300(type1)
+EmptyImage[S]=Keikyu_400_2.3.0
+EmptyImage[E]=Keikyu_400_2.3.1
+EmptyImage[SE]=Keikyu_400_2.3.2
+EmptyImage[SW]=Keikyu_400_2.3.3
+EmptyImage[N]=Keikyu_400_2.3.4
+EmptyImage[W]=Keikyu_400_2.3.5
+EmptyImage[NW]=Keikyu_400_2.3.6
+EmptyImage[NE]=Keikyu_400_2.3.7
+-------------------------------------------------------------------------------

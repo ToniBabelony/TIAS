@@ -1,0 +1,34 @@
+#-------------------------------------------------------------------------------
+#   Shonan_1.dat
+#　 湘南電気鉄道　デ1形
+#
+#   著作権はありません。自由に使ってください。
+#　　製作者 555
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=Shonan Mc_1
+copyright=555
+waytype=electrified_track
+freight=Passagiere
+speed=100
+gear=128
+payload=100
+power=373
+cost=800000
+weight=40
+length=7
+RunningCost=70
+Sound=2
+intro_year=1930
+intro_month=4
+retire_year=1952
+retire_month=3
+EmptyImage[S]=Keikyu_230_1.0.0
+EmptyImage[E]=Keikyu_230_1.0.1
+EmptyImage[SE]=Keikyu_230_1.0.2
+EmptyImage[SW]=Keikyu_230_1.0.3
+EmptyImage[N]=Keikyu_230_1.0.4
+EmptyImage[W]=Keikyu_230_1.0.5
+EmptyImage[NW]=Keikyu_230_1.0.6
+EmptyImage[NE]=Keikyu_230_1.0.7
+--------------------------------------------------------------------------------

@@ -1,0 +1,34 @@
+#-------------------------------------------------------------------------------
+#   Keihin_41.dat
+#　　京浜急行電鉄　230形セット
+#
+#   著作権はありません。自由に使ってください。    
+#　　製作者 555
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=Keihin Mc_41
+copyright=555
+waytype=electrified_track
+freight=Passagiere
+speed=90
+gear=105
+payload=96
+power=147
+cost=550000
+weight=28
+length=7
+RunningCost=94
+Sound=2
+intro_year=1921
+intro_month=4
+retire_year=1951
+retire_month=3
+EmptyImage[S]=Keihin_41_51_140.0.0
+EmptyImage[E]=Keihin_41_51_140.0.1
+EmptyImage[SE]=Keihin_41_51_140.0.2
+EmptyImage[SW]=Keihin_41_51_140.0.3
+EmptyImage[N]=Keihin_41_51_140.0.4
+EmptyImage[W]=Keihin_41_51_140.0.5
+EmptyImage[NW]=Keihin_41_51_140.0.6
+EmptyImage[NE]=Keihin_41_51_140.0.7
+--------------------------------------------------------------------------------

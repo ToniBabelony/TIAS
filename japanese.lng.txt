@@ -1,0 +1,417 @@
+##grflangid 0x39
+# This is the Japanese language file
+
+# GRF name and description definitions
+STR_GRF_NAME				:TIAS 0.1.5
+STR_GRF_DESCRIPTION			:都営1番線浅草線通過する電車セット。日本語はまだできていませんですから，英語のバージオンを使ってください。そして、京成の車両しかないけれど，京急のはまだだが、１０００形1型、１５００形、６００形３と１０００形２型が持ってます。{}{}{COPYRIGHT} Toni Productions 2012{}License: GPL v2
+STR_PARAM_COMPANY_NAME			:会社作曲
+STR_PARAM_COMPANY_DESC			:都営1番線浅草線通過する電車は１９６８年からです。それ以上は京成・京急の電車を使ってください。{}{GOLD}注意：{BLACK}京成の車両しかないけれど，京急のはまだだ。ですから，京成の作曲はお勧めです。
+STR_PARAM_COMPANY_KEISEI		:京成（浅草線全通過車、京成グループ車；長さは８輌編成以上） 
+STR_PARAM_COMPANY_KEIKYU		:京浜急行（浅草線全通過車、京浜急行車：長さは１２輌編成以上）
+STR_PARAM_COMPANY_BOTH			:全部（マルチプレーヤーゲームの為；京浜急行車：長さは１２輌編成以上、その他は８輌編成以上
+STR_PARAM_SOUND_NAME			:音作曲
+STR_PARAM_SOUND_DESC			:音の作曲
+STR_PARAM_SOUND_OFF			:音無
+STR_PARAM_SOUND_START			:発車の音しか
+STR_PARAM_SOUND_ON			:全部
+
+# 京急 consist groups
+STR_KQ0_CANNOT_ATTACH_OTHER	:京急 GROUP 0 連結できる。
+STR_KQ1A2_CANNOT_ATTACH_OTHER	:京急 GROUP 1 連結できる。{}　２輌編しか。
+STR_KQ1A4_CANNOT_ATTACH_OTHER	:京急 GROUP 1 連結できる。{}　２・４輌編しか。
+STR_KQ1B3_CANNOT_ATTACH_OTHER	:京急 GROUP 1 連結できる。{}　３輌編しか。
+STR_KQ1B6_CANNOT_ATTACH_OTHER	:京急 GROUP 1 連結できる。{}　２・３・６輌編しか。
+STR_KQ2_CANNOT_ATTACH_OTHER	:京急 GROUP 2 連結できる。{}　４輌編しか。
+
+# 京成 Type 1
+STR_KS1_1_NAME					:{LTBLUE}京成 {BLACK}１形、（１両）
+STR_KS1_1_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} １{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電氣軌道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Single EMU, only other single 京成 units can be attached;４輌編成以上。{}
+STR_KS1_2_NAME					:{LTBLUE}京成 {BLACK}１形、（２両）
+STR_KS1_2_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 2{}会社： {LTBLUE}京成電氣軌道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Trailer car is not powered;４輌編成以上。{}
+STR_KS1_CANNOT_START			:... 車両多すぎ。４輌編成以上。
+STR_KS1_CANNOT_ATTACH_OTHER		:... no other cars can be attached.
+
+# 京成 Type 20
+STR_KS20_NAME					:{LTBLUE}京成 {BLACK}20/100 Type (1 car)
+STR_KS20_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 1{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can be attached to other 京成 (1 car) units or as a trailer to consists;４輌編成以上。{}
+STR_KS20_CANNOT_START			:... 車両多すぎ。４輌編成以上。
+STR_KS20_CANNOT_ATTACH_OTHER	:... no other cars other than 京成 (1 car) units can be attached.
+
+# 京成 Type 33
+STR_KS33_NAME					:{LTBLUE}京成 {BLACK}33/39/45 Type (1 car)
+STR_KS33_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 1{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can be attached to other 京成 (1 car) units or as a trailer to consists;４輌編成以上。{}
+STR_KS33_CANNOT_START			:... 車両多すぎ。４輌編成以上。
+STR_KS33_CANNOT_ATTACH_OTHER 	:.... no other cars other than 京成 (1 car) units can be attached.
+
+# 新京成 Type 33
+STR_SKS33_NAME					:{CREAM}SKS {BLACK}33/39/45 Type (1 car)
+STR_SKS33_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 1{}{BLACK}{TRAIN} 会社： {CREAM}新京成電気鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}2nd-hand units bought from 京成. Can be attached to other 新京成 (1 car) units or as a trailer to consists;８輌編成以上。{}
+STR_SKS33_CANNOT_START			:... 車両多すぎ。８輌編成以上。
+STR_SKS33_CANNOT_ATTACH_OTHER 	:... no other cars other than 新京成 (1 car) units can be attached.
+
+# 京成 Type 200
+STR_KS200_NAME					:{LTBLUE}京成 {BLACK}200/1100 Type (1 car)
+STR_KS200_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 1{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can be attached to other 京成 (1 car) units or as a trailer to consists;４輌編成以上。{}
+STR_KS200_CANNOT_START			:... 車両多すぎ。４輌編成以上。
+STR_KS200_CANNOT_ATTACH_OTHER 	:... no other cars other than 京成 (1 car) units can be attached.
+
+# 京成 Type 300
+STR_KS300_NAME					:{LTBLUE}京成 {BLACK}300 Type (1 car)
+STR_KS300_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 1{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can be attached to other 京成 (1 car) units or as a trailer to consists;４輌編成以上。{}
+STR_KS300_CANNOT_START			:... 車両多すぎ。４輌編成以上。
+STR_KS300_CANNOT_ATTACH_OTHER 	:... no other cars other than 京成 (1 car) units can be attached.
+
+# 新京成 Type 300
+STR_SKS300_NAME					:{CREAM}SKS {BLACK}300 Type (2 cars)
+STR_SKS300_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 2{}{BLACK}{TRAIN} 会社： {CREAM}新京成電気鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}2nd-hand 300 and 45 Type units bought from 京成. Can be attached to other 2-car< 新京成 trains;８輌編成以上。{}
+STR_SKS300_CANNOT_START			:... 車両多すぎ。８輌編成以上。
+STR_SKS300_CANNOT_ATTACH_OTHER 	:... no other cars other than 新京成 units can be attached.
+
+# 京成 Type 600
+STR_KS600_NAME					:{LTBLUE}京成 {BLACK}600 Type (2 cars)
+STR_KS600_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 2{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can be attached to other 2-car< 京成 trains;８輌編成以上。{}
+STR_KS600_CANNOT_START			:... 車両多すぎ。８輌編成以上。
+STR_KS600_CANNOT_ATTACH_OTHER 	:... no other cars other than 京成 units can be attached.
+
+# 京成 Type 1500
+STR_KS1500_NAME					:{LTBLUE}京成 {BLACK}1500 Type KAIUN (2 cars)
+STR_KS1500_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 2{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方：{GOLD} Limited Express services. (Express Kaiun){}{GOLD}NOTES: {BLACK}Can be doubled in length by another 1500 Series unit set.{}
+STR_KS1500_CANNOT_START			:... 車両多すぎ。４輌編成以上。
+STR_KS1500_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# 京成 Type 700, 2200
+STR_KS700_2_NAME				:{LTBLUE}京成 {BLACK}700/2200 Type (2 cars)
+STR_KS700_2_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 2{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can be attached to other 2-car< 京成 trains;８輌編成以上。{}
+STR_KS700_4_NAME				:{LTBLUE}京成 {BLACK}700/2200 (4 cars)
+STR_KS700_4_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{RED}WARNING!{GOLD} 京成 200/7000 (4 car) always needs to be first in consist to avoid graphical glitches.{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can be attached to other 2-car< 京成 trains except 700/2200 Type (2 cars);８輌編成以上。{}
+STR_KS700_CANNOT_START			:... 車両多すぎ。８輌編成以上。
+STR_KS700_CANNOT_ATTACH_OTHER 	:... no other cars other than 京成 units can be attached.
+
+# 京成 Type 1600
+STR_KS1600_NAME					:{LTBLUE}京成 {BLACK}1600 Type KAIUN (2/3 cars)
+STR_KS1600_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 2, 3 after 1957{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方：{GOLD} Limited Express services. (Express Kaiun){}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS1600_CANNOT_START			:... No other consists allowed.
+STR_KS1600_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# 京成 Type 3000, 3050, 1st Series
+STR_KS3000_3050_2_NAME					:{LTBLUE}京成 {BLACK}3000/3050-1 Type (2 cars)
+STR_KS3000_3050_4_NAME					:{LTBLUE}京成 {BLACK}3000/3050-1 Type (4 cars)
+STR_KS3000_3050_6_NAME					:{LTBLUE}京成 {BLACK}3000/3050-1 Type (6 cars)
+STR_KS3000_3050_8_NAME					:{LTBLUE}京成 {BLACK}3000/3050-1 Type (8 cars)
+STR_KS3000_3050_2_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 2{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only be attached to 3000/3050 2 and 4-car Type units.{}
+STR_KS3000_3050_4_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only be attached to 3000/3050 Type 2 and 4-car units.{}
+STR_KS3000_3050_6_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 6{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only be attached to 3000/3050 Type 2-car units.{}
+STR_KS3000_3050_8_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方： {GOLD} Limited Express services. (Express Kaiun){}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS3000_3050_CANNOT_START			:... 車両多すぎ。８輌編成以上。
+STR_KS3000_3050_CANNOT_ATTACH_OTHER 	:... no other cars can be attached, other than 3000, 3050 Type, 1st Series.
+
+# 京成 Type 3100
+STR_KS3100_2_NAME					:{LTBLUE}京成 {BLACK}3100 Type (2 cars)
+STR_KS3100_4_NAME					:{LTBLUE}京成 {BLACK}3100 Type (4 cars)
+STR_KS3100_2_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 2{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only be attached to 3100 Type units.{}
+STR_KS3100_4_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only be attached to 3100 Type units.{}
+STR_KS3100_CANNOT_START				:... 車両多すぎ。８輌編成以上。
+STR_KS3100_CANNOT_ATTACH_OTHER		:... no other cars can be attached, other than 3100 Type.
+
+# 京急 Type 1000, 1st Series
+STR_KQ1000_1KS_2_NAME					:{RED}KQ {BLACK}1000 1st Type (2 cars)
+STR_KQ1000_1KS_2_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 2{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only be attached to 1000 1st Type units.{}
+STR_KQ1000_1KSa_4_NAME					:{RED}KQ {BLACK}1000 1st Type (4 cars)
+STR_KQ1000_1KSa_4_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only be attached to 1000 1st Type 4-car units.{}
+STR_KQ1000_1KSb_4_NAME					:{RED}KQ {BLACK}1000 1st new Type (4 cars)
+STR_KQ1000_1KSb_4_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only be attached to 1000 1st Type 4-car units.{}
+STR_KQ1000_1KSa_8_NAME					:{RED}KQ {BLACK}1000 1st Type (8 cars)
+STR_KQ1000_1KSa_8_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KQ1000_1KSb_8_NAME					:{RED}KQ {BLACK}1000 1st new Type (8 cars)
+STR_KQ1000_1KSb_8_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KQ1000_1KS_CANNOT_START				:... 車両多すぎ。８輌編成以上。
+STR_KQ1000_1KQ_2_NAME					:{RED}KQ {BLACK}1000 1st Type (2 cars) {GREEN} GROUP 2 
+STR_KQ1000_1KQ_2_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 2{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can be attached to other 京急 Group 2 units.{}
+STR_KQ1000_1KQa_4_NAME					:{RED}KQ {BLACK}1000 1st Type (4 cars) {GREEN} GROUP 2 
+STR_KQ1000_1KQa_4_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can be attached to other 京急 Group 2 units.{}
+STR_KQ1000_1KQb_4_NAME					:{RED}KQ {BLACK}1000 1st new Type (4 cars) {GREEN} GROUP 2 
+STR_KQ1000_1KQb_4_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can be attached to other 京急 Group 2 units.{}
+STR_KQ1000_1KQa_8_NAME					:{RED}KQ {BLACK}1000 1st Type (8 cars) {GREEN} GROUP 2 
+STR_KQ1000_1KQa_8_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only have other 京急 Group 2 units attached.{}
+STR_KQ1000_1KQb_8_NAME					:{RED}KQ {BLACK}1000 1st new Type (8 cars) {GREEN} GROUP 2 
+STR_KQ1000_1KQb_8_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only have other 京急 Group 2 units attached.{}
+STR_KQ1000_1KQ_CANNOT_START				:... 車両多すぎ。１２輌編成以上。
+STR_KQ1000_1_CANNOT_ATTACH_OTHER		:... no other cars can be attached, other than 1000 1st Type.
+
+# 新京成 Type 20~2000
+STR_SKS20_1_NAME				:{CREAM}SKS {BLACK}Standard Type (1 car)
+STR_SKS20_2_NAME				:{CREAM}SKS {BLACK}Standard Type (2 cars)
+STR_SKS20_4_NAME				:{CREAM}SKS {BLACK}Standard Type (4 cars)
+STR_SKS20_1_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 1{}{BLACK}{TRAIN} 会社： {CREAM}新京成電気鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}2nd-hand units bought from 京成. Can be attached to other 1-car 新京成 trains;８輌編成以上。{}
+STR_SKS20_2_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 2{}{BLACK}{TRAIN} 会社： {CREAM}新京成電気鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}2nd-hand units bought from 京成. Can be attached to other 2-car< 新京成 trains;８輌編成以上。{}
+STR_SKS20_4_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {CREAM}新京成電気鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}2nd-hand units bought from 京成. Can be attached to other 2-car< 新京成 trains;８輌編成以上。{}
+STR_SKS20_CANNOT_START			:... 車両多すぎ。８輌編成以上。
+STR_SKS20_CANNOT_ATTACH_OTHER 	:... no other cars other than 新京成 units can be attached.
+
+# 京成 Type 3150
+STR_KS3150_4_NAME				:{LTBLUE}京成 {BLACK}3150 Type (4 cars)
+STR_KS3150_4_ADDITIONAL_TEXT	:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only be attached to 3150 Type units.{}
+STR_KS3150_CANNOT_START			:... 車両多すぎ。８輌編成以上。
+STR_KS3150_CANNOT_ATTACH_OTHER 	:... no other cars can be attached, other than 3150 Type.
+
+# 京成 Type 200, 2000
+STR_KS200_2000_NAME					:{LTBLUE}京成 {BLACK}200, 2000 Type (4 cars)
+STR_KS200_2000_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS200_2000_CANNOT_START			:... 車両多すぎ。４輌編成以上。
+STR_KS200_2000_CANNOT_ATTACH_OTHER 	:... no other cars can be attached, other than 200, 2000 Type.
+
+# 京成 Type 3200
+STR_KS3200_4_NAME				:{LTBLUE}京成 {BLACK}3200 Type (4 cars)
+STR_KS3200_4_ADDITIONAL_TEXT	:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only be attached to 3200 Type 4-car units.{}
+STR_KS3200_6_NAME				:{LTBLUE}京成 {BLACK}3200 Type (6 cars)
+STR_KS3200_6_ADDITIONAL_TEXT	:{BLACK}車両：{GOLD} 6{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS3200_CANNOT_START			:... 車両多すぎ。８輌編成以上。
+STR_KS3200_CANNOT_ATTACH_OTHER 	:... no other cars can be attached, other than 3200 Type.
+
+# 京成 Type 3300
+STR_KS3300_4_NAME				:{LTBLUE}京成 {BLACK}3300 Type (4 cars)
+STR_KS3300_4_ADDITIONAL_TEXT	:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only be attached to 3300 Type 4-car units. Random livery after 2009.{}
+STR_KS3300_6_NAME				:{LTBLUE}京成 {BLACK}3300 Type (6 cars)
+STR_KS3300_6_ADDITIONAL_TEXT	:{BLACK}車両：{GOLD} 6{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS3300_8_NAME				:{LTBLUE}京成 {BLACK}3300 Type (8 cars)
+STR_KS3300_8_ADDITIONAL_TEXT	:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS3300_CANNOT_START			:... 車両多すぎ。８輌編成以上。
+STR_KS3300_CANNOT_ATTACH_OTHER 	:... no other cars can be attached, other than 3300 Type.
+
+# Toei Type 5000
+STR_TOEI5000_2_NAME					:{WHITE}Toei {BLACK}5000 Type (2 cars)
+STR_TOEI5000_2_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 2{}{BLACK}{TRAIN} 会社： {WHITE} Tokyo Metropolitan Bureau of Transport{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only be attached to 5000 Type units.{}
+STR_TOEI5000_4_NAME					:{WHITE}Toei {BLACK}5000 Type (4 cars)
+STR_TOEI5000_4_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {WHITE} Tokyo Metropolitan Bureau of Transport{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only be attached to 5000 Type 4-car units.{}
+STR_TOEI5000_CANNOT_START			:... train too long, max. 8 cars.
+STR_TOEI5000_CANNOT_ATTACH_OTHER 	:... no other cars can be attached, other than 5000 Type.
+
+# 新京成 Type 800
+STR_SKS800_4_NAME				:{CREAM}SKS {BLACK}800 Type (4 cars)
+STR_SKS800_4_ADDITIONAL_TEXT	:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {CREAM}新京成電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only be attached to 800 Type 4-car units.{}
+STR_SKS800_6_NAME				:{CREAM}SKS {BLACK}800 Type (6 cars)
+STR_SKS800_6_ADDITIONAL_TEXT	:{BLACK}車両：{GOLD} 6{}{BLACK}{TRAIN} 会社： {CREAM}新京成電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_SKS800_8_NAME				:{CREAM}SKS {BLACK}800 Type (8 cars)
+STR_SKS800_8_ADDITIONAL_TEXT	:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {CREAM}新京成電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_SKS800_CANNOT_START			:... 車両多すぎ。８輌編成以上。
+STR_SKS800_CANNOT_ATTACH_OTHER 	:... no other cars can be attached, other than in the description.
+
+# 京成 Type 3500
+STR_KS3500_NAME					:{LTBLUE}京成 {BLACK}3500 Type (4 cars)
+STR_KS3500_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only be attached to 3500 Type units.{}
+STR_KS3500_CANNOT_START			:... 車両多すぎ。８輌編成以上。
+STR_KS3500_CANNOT_ATTACH_OTHER 	:... no other cars can be attached, other than 3500 Type.
+
+# 京成 Type AE1
+STR_KSAE1_6_NAME				:{LTBLUE}京成 {BLACK}AE1 Type (6 cars)
+STR_KSAE1_6_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 6{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方：{GOLD} Express services (Skyliner){}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KSAE1_8_NAME				:{LTBLUE}京成 {BLACK}AE1 Type (8 cars)
+STR_KSAE1_8_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方：{GOLD} Express services (Skyliner){}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KSAE1_CANNOT_START			:... 車両多すぎ。
+STR_KSAE1_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Toei Type 5200
+STR_TOEI5200_6_NAME					:{WHITE}Toei {BLACK}5200 Type (6 cars)
+STR_TOEI5200_6_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 6{}{BLACK}{TRAIN} 会社： {WHITE} Tokyo Metropolitan Bureau of Transport{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_TOEI5200_8_NAME					:{WHITE}Toei {BLACK}5200 Type (8 cars)
+STR_TOEI5200_8_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {WHITE} Tokyo Metropolitan Bureau of Transport{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_TOEI5200_CANNOT_START			:... 車両多すぎ。
+STR_TOEI5200_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# 新京成 Type 8000
+STR_SKS8000_NAME					:{CREAM}SKS {BLACK}8000 Type (6 cars)
+STR_SKS8000_ADDITIONAL_TEXT			:{BLACK}車両：{GOLD} 6{}{BLACK}{TRAIN} 会社： {CREAM}新京成電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train. Random livery after 2001.{}
+STR_SKS8000_CANNOT_START			:... 車両多すぎ。 Max. 6 cars.
+STR_SKS8000_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# 北総 Kaihatsu Type 7000
+STR_HKT7000_6_NAME					:{YELLOW}HKT {BLACK}7000 Type (6 cars)
+STR_HKT7000_6_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 6{}{BLACK}{TRAIN} 会社： {YELLOW}北総開発鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_HKT7000_8_NAME					:{YELLOW}HKT {BLACK}7000 Type (8 cars)
+STR_HKT7000_8_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {YELLOW}北総開発鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_HKT7000_CANNOT_START			:... 車両多すぎ。
+STR_HKT7000_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Chiba New Town Type 2000/9000
+STR_CNT9000_6_NAME					:{ORANGE}JTSK {BLACK}2000 Type (6 cars)
+STR_CNT9000_6_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 6{}{BLACK}{TRAIN} 会社： {ORANGE}Housing and開発 Corporation{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_CNT9000_8_NAME					:{ORANGE}JTSK{BLACK}/{PURPLE}UDC{BLACK}/{DKGREEN}CNT {BLACK}2000/9000 Type (8 cars)
+STR_CNT9000_8_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} Company (until 1999): {ORANGE}Housing and開発 Corporation{}{BLACK}{TRAIN} Company (1999-2004): {PURPLE}Urban開発 Corporation{}{BLACK}{TRAIN} Company (from 2004): {DKGREEN}Chiba New Town鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_CNT9000_CANNOT_START			:... 車両多すぎ。
+STR_CNT9000_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# 京成 Type 3600
+STR_KS3600_2_NAME				:{LTBLUE}京成 {BLACK}3600 Type (2 cars)
+STR_KS3600_2_ADDITIONAL_TEXT	:{BLACK}車両：{GOLD} 2{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only be attached to 3600 Type 2-car units.{}
+STR_KS3600_6_NAME				:{LTBLUE}京成 {BLACK}3600 Type (6 cars)
+STR_KS3600_6_ADDITIONAL_TEXT	:{BLACK}車両：{GOLD} 6{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS3600_8_NAME				:{LTBLUE}京成 {BLACK}/ {GREEN}SY {BLACK}3600 Type (8 cars)
+STR_KS3600_8_ADDITIONAL_TEXT	:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{BLACK} or{GREEN} Shibayama鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Will appear at random as Shibayama鉄道 train after 2003. Cannot be attached to any other train.{}
+STR_KS3600_CANNOT_START			:... 車両多すぎ。
+STR_KS3600_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# 京急 Type 1500
+STR_KQ1500KS_4_NAME					:{RED}KQ {BLACK}1500 Type (4 cars)
+STR_KQ1500KS_4_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only be attached to 1500 Type 4-car units.{}
+STR_KQ1500KS_6_NAME					:{RED}KQ {BLACK}1500 Type (6 cars)
+STR_KQ1500KS_6_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 6{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KQ1500KS_8_NAME					:{RED}KQ {BLACK}1500 Type (8 cars)
+STR_KQ1500KS_8_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KQ1500KS_CANNOT_START			:... 車両多すぎ。８輌編成以上。
+STR_KQ1500KS_CANNOT_ATTACH_OTHER 	:... no other cars can be attached, other than 1500 Type 4-car units.
+STR_KQ1500KQ_4_NAME					:{RED}KQ {BLACK}1500 Type (4 cars) {GREEN} GROUP 2 
+STR_KQ1500KQ_4_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only be attached to other 京急 Group 2 units.{}
+STR_KQ1500KQ_6_NAME					:{RED}KQ {BLACK}1500 Type (6 cars) 
+STR_KQ1500KQ_6_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 6{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only be attached to 京急 1500 6-car units.{}
+STR_KQ1500KQ_8_NAME					:{RED}KQ {BLACK}1500 Type (8 cars) {GREEN} GROUP 2 
+STR_KQ1500KQ_8_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only have other 京急 Group 2 units attached.{}
+STR_KQ1500KQ_CANNOT_START			:... 車両多すぎ。１２輌編成以上。
+STR_KQ1500KQ_CANNOT_ATTACH_OTHER 	:... no other cars can be attached, other than in the description.
+
+# 新京成 Type 8800
+STR_SKS8800_6_NAME					:{CREAM}SKS {BLACK}8800 Type (6 cars)
+STR_SKS8800_6_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 6{}{BLACK}{TRAIN} 会社： {CREAM}新京成電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_SKS8800_8_NAME					:{CREAM}SKS {BLACK}8800 Type (8 cars)
+STR_SKS8800_8_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {CREAM}新京成電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_SKS8800_CANNOT_START			:... 車両多すぎ。８輌編成以上。
+STR_SKS8800_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# 京成 Type 3700
+STR_KS3700_6_NAME				:{LTBLUE}京成 {BLACK}3700 Type (6 cars)
+STR_KS3700_6_ADDITIONAL_TEXT	:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS3700_8_NAME				:{LTBLUE}京成 {BLACK}/ {YELLOW}HKT {BLACK}3700/7300 Type (8 cars)
+STR_KS3700_8_ADDITIONAL_TEXT	:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{BLACK} or{YELLOW}北総開発鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Will appear as 京成 or 北総 unit at random. Cannot be attached to any other train.{}
+STR_KS3700_CANNOT_START			:... 車両多すぎ。
+STR_KS3700_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Toei Type 5300
+STR_TOEI5300_NAME					:{WHITE}Toei {BLACK}5300 Type (8 cars)
+STR_TOEI5300_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {WHITE} Tokyo Metropolitan Bureau of Transport{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_TOEI5300_CANNOT_START			:... 車両多すぎ。
+STR_TOEI5300_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# 京成 Type AE100
+STR_KSAE100_NAME					:{LTBLUE}京成 {BLACK}AE100 Type (8 cars)
+STR_KSAE100_ADDITIONAL_TEXT			:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方：{GOLD} Express services (Skyliner){}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KSAE100_CANNOT_START			:... 車両多すぎ。
+STR_KSAE100_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# 北総 Kaihatsu Type 7150
+STR_HKT7150_NAME					:{YELLOW}HKT {BLACK}7150 Type (4 cars)
+STR_HKT7150_ADDITIONAL_TEXT			:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {YELLOW}北総開発鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Leased from 京成. Can only be attached to 7050 Type units.{}
+STR_HKT7150_CANNOT_START			:... 車両多すぎ。８輌編成以上。
+STR_HKT7150_CANNOT_ATTACH_OTHER 	:... no other cars can be attached, other than 7150 Type.
+
+# Chiba Express Type 1000
+STR_CE1000_NAME					:{BLUE}CE {BLACK}1000 Type (4 cars)
+STR_CE1000_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {BLUE}Chiba Express鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Leased from 京成/京急. Cannot be attached to any other train.{}
+STR_CE1000_CANNOT_START			:... 車両多すぎ。４輌編成以上。
+STR_CE1000_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# 京成 Type 3400
+STR_KS3400_NAME					:{LTBLUE}京成 {BLACK}3400 Type (8 cars)
+STR_KS3400_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS3400_CANNOT_START			:... 車両多すぎ。
+STR_KS3400_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# 新京成 Type 8900
+STR_SKS8900_NAME					:{CREAM}SKS {BLACK}8900 Type (8 cars)
+STR_SKS8900_ADDITIONAL_TEXT			:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {CREAM}新京成電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_SKS8900_CANNOT_START			:... 車両多すぎ。
+STR_SKS8900_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Chiba Express Type 3050
+STR_CE3050_NAME						:{BLUE}CE {BLACK}3050 Type (4 cars)
+STR_CE3050_ADDITIONAL_TEXT			:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {BLUE}Chiba Express鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Leased from 京成. Cannot be attached to any other train.{}
+STR_CE3050_CANNOT_START				:... 車両多すぎ。４輌編成以上。
+STR_CE3050_CANNOT_ATTACH_OTHER		:... no other cars can be attached.
+
+# Chiba New Town Type 9100
+STR_CNT9100_NAME					:{ORANGE}JTSK{BLACK}/{PURPLE}UDC{BLACK}/{DKGREEN}CNT {BLACK}9100 Type (8 cars)
+STR_CNT9100_ADDITIONAL_TEXT			:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} Company (until 1999): {ORANGE}Housing and開発 Corporation{}{BLACK}{TRAIN} Company (1999-2004): {PURPLE}Urban開発 Corporation{}{BLACK}{TRAIN} Company (from 2004): {DKGREEN}Chiba New Town鉄道{}{BLACK}使い方：{GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_CNT9100_CANNOT_START			:... 車両多すぎ。
+STR_CNT9100_CANNOT_ATTACH_OTHER		:... no other cars can be attached.
+
+# 京急 Type 600, 3rd Series
+STR_KQ600_3KS_4_NAME					:{RED}KQ {BLACK}600 3 Type (4 cars)
+STR_KQ600_3KS_4_ADDITIONAL_TEXT			:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only be attached to 600 3 Type 4-car units.{}
+STR_KQ600_3KS_8_NAME					:{RED}KQ {BLACK}600 3 Type (8 cars)
+STR_KQ600_3KS_8_ADDITIONAL_TEXT			:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Will appear as KEIKYU SKY BLUE TRAIN after 2005 at random. Cannot be attached to any other train.{}
+STR_KQ600_3KS_CANNOT_START				:... 車両多すぎ。１２輌編成以上。
+STR_KQ600_3KS_CANNOT_ATTACH_OTHER		:... no other cars can be attached, other than 600 3 Type 4-car units.
+STR_KQ600_3KQ_4_NAME					:{RED}KQ {BLACK}600 3 Type (4 cars) {GREEN} GROUP 2 
+STR_KQ600_3KQ_4_ADDITIONAL_TEXT			:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can be attached to other 京急 Group 2 units.{}
+STR_KQ600_3KQ_8_NAME					:{RED}KQ {BLACK}600 3 Type (8 cars) {GREEN} GROUP 2 
+STR_KQ600_3KQ_8_ADDITIONAL_TEXT			:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Will appear as KEIKYU SKY BLUE TRAIN after 2005 at random. {BLACK}Can only have other 京急 Group 2 units attached{}
+STR_KQ600_3KQ_CANNOT_START				:... 車両多すぎ。１２輌編成以上。
+STR_KQ600_3KQ_CANNOT_ATTACH_OTHER		:... no other cars can be attached, other than in the description.
+
+# 北総 Kaihatsu Type 7050
+STR_HKT7050_NAME					:{YELLOW}HKT {BLACK}7050 Type (4 cars)
+STR_HKT7050_ADDITIONAL_TEXT			:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {YELLOW}北総開発鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Leased from 京成. Can only be attached to 7050 Type units.{}
+STR_HKT7050_CANNOT_START			:... 車両多すぎ。８輌編成以上。
+STR_HKT7050_CANNOT_ATTACH_OTHER 	:... no other cars can be attached, other than 7050 Type.
+
+# Chiba Express Type 3100
+STR_CE3100_NAME					:{BLUE}CE {BLACK}3100 Type (4 cars)
+STR_CE3100_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {BLUE}Chiba Express鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Leased from 京成. Cannot be attached to any other train.{}
+STR_CE3100_CANNOT_START			:... 車両多すぎ。４輌編成以上。
+STR_CE3100_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Chiba Express Type 3150
+STR_CE3150_NAME					:{BLUE}CE {BLACK}3150 Type (4 cars)
+STR_CE3150_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {BLUE}Chiba Express鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Leased from 京成. Cannot be attached to any other train.{}
+STR_CE3150_CANNOT_START			:... 車両多すぎ。４輌編成以上。
+STR_CE3150_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# 京急 Type 1000, 2nd Series
+STR_KQ1000_2KS_4_NAME					:{RED}KQ {BLACK}1000 2 Type (4 cars)
+STR_KQ1000_2KS_4_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can only be attached to 1000 3 Type 4-car units.{}
+STR_KQ1000_2KS_8_NAME					:{RED}KQ {BLACK}1000 2 Type (8 cars)
+STR_KQ1000_2KS_8_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Will appear as KEIKYU SKY BLUE TRAIN after 2005 at random. Cannot be attached to any other train.{}
+STR_KQ1000_2KS_CANNOT_START				:... 車両多すぎ。１２輌編成以上。
+STR_KQ1000_2KS_CANNOT_ATTACH_OTHER		:... no other cars can be attached, other than 1000 3 Type 4-car units.
+STR_KQ1000_2KQ_4_NAME					:{RED}KQ {BLACK}1000 2 Type (4 cars) {GREEN} GROUP 2 
+STR_KQ1000_2KQ_4_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Can be attached to other 京急 Group 2 units.{}
+STR_KQ1000_2KQ_8_NAME					:{RED}KQ {BLACK}1000 2 Type (8 cars) {GREEN} GROUP 2 
+STR_KQ1000_2KQ_8_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {RED}Keihin Express電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Will appear as KEIKYU SKY BLUE TRAIN after 2005 at random. {BLACK}Can only have other 京急 Group 2 units attached{}
+STR_KQ1000_2KQ_CANNOT_START				:... 車両多すぎ。１２輌編成以上。
+STR_KQ1000_2KQ_CANNOT_ATTACH_OTHER		:... no other cars can be attached, other than in the description.
+
+# 北総 Kaihatsu Type 7250
+STR_HKT7250_NAME					:{YELLOW}HKT {BLACK}7250 Type (4 cars)
+STR_HKT7250_ADDITIONAL_TEXT			:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {YELLOW}北総開発鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Leased from 京成. Can only be attached to 7250 Type units.{}
+STR_HKT7250_CANNOT_START			:... 車両多すぎ。８輌編成以上。
+STR_HKT7250_CANNOT_ATTACH_OTHER 	:... no other cars can be attached, other than 7250 Type.
+
+# 京成 Type 3000, 2nd Series
+STR_KS3000_2_6_NAME					:{LTBLUE}京成 {BLACK}3000 2nd Type (6 cars)
+STR_KS3000_2_6_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 6{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS3000_2_8_NAME					:{LTBLUE}京成 {BLACK}/ {YELLOW}HT {BLACK}3000 2nd / 7500 Type (8 cars)
+STR_KS3000_2_8_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{BLACK} or{YELLOW}北総鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Will appear as 京成 or 北総 unit at random. Cannot be attached to any other train.{}
+STR_KS3000_2_CANNOT_START			:... 車両多すぎ。
+STR_KS3000_2_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# 新京成 Type N800
+STR_SKSN800_NAME					:{CREAM}SKS {BLACK}N800 Type (6 cars)
+STR_SKSN800_ADDITIONAL_TEXT			:{BLACK}車両：{GOLD} 6{}{BLACK}{TRAIN} 会社： {CREAM}新京成電気鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_SKSN800_CANNOT_START			:... 車両多すぎ。
+STR_SKSN800_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# 北総 Type 7260
+STR_HT7260_NAME					:{YELLOW}HT {BLACK}7260 Type (4 cars)
+STR_HT7260_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 4{}{BLACK}{TRAIN} 会社： {YELLOW}北総鉄道{}{BLACK}使い方： {GOLD}通勤列車{}{GOLD}NOTES: {BLACK}Leased from 京成. Cannot be attached to any other train.{}
+STR_HT7260_CANNOT_START			:... 車両多すぎ。
+STR_HT7260_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# 京成 Type AE2
+STR_KSAE2_NAME					:{LTBLUE}京成 {BLACK}AE2 Type (8 cars)
+STR_KSAE2_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方：{GOLD} Express services (Skyliner){}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KSAE2_CANNOT_START			:... 車両多すぎ。
+STR_KSAE2_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# 京成 Type 3050, 2nd Series
+STR_KS3050_2_NAME					:{LTBLUE}京成 {BLACK}3050 2nd / 7500 Type (8 cars)
+STR_KS3050_2_ADDITIONAL_TEXT		:{BLACK}車両：{GOLD} 8{}{BLACK}{TRAIN} 会社： {LTBLUE}京成電気鉄道{}{BLACK}使い方： {GOLD} Fast commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS3050_2_CANNOT_START			:... 車両多すぎ。
+STR_KS3050_2_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.

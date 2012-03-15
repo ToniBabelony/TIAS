@@ -1,0 +1,32 @@
+#-------------------------------------------------------------------------------
+#   Keikyu_300_2.dat
+#　　京浜急行電鉄　300形(新塗装)
+#
+#   著作権はありません。自由に使ってください。    
+#　　製作者 555
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=Keikyu Mc_300(type2)
+waytype=electrified_track
+freight=Passagiere
+speed=105
+gear=127
+payload=140
+power=448
+cost=1000000
+weight=39
+RunningCost=61
+Sound=2
+intro_year=1960
+intro_month=1
+retire_year=1966
+retire_month=3
+EmptyImage[S]=Keikyu_300.2.0
+EmptyImage[E]=Keikyu_300.2.1
+EmptyImage[SE]=Keikyu_300.2.2
+EmptyImage[SW]=Keikyu_300.2.3
+EmptyImage[N]=Keikyu_300.2.4
+EmptyImage[W]=Keikyu_300.2.5
+EmptyImage[NW]=Keikyu_300.2.6
+EmptyImage[NE]=Keikyu_300.2.7
+--------------------------------------------------------------------------------

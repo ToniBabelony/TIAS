@@ -1,0 +1,123 @@
+#-------------------------------------------------------------------------------
+#   Keikyu_440_3.dat
+#   京浜急行電鉄　440形(新塗装:更新車)
+#
+#   著作権はありません。自由に使ってください。    
+#　　製作者 555
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=Keikyu Mu_440(Renewal:type3)
+waytype=electrified_track
+freight=Passagiere
+speed=105
+gear=126
+payload=140
+power=440
+cost=1100000
+weight=39
+RunningCost=57
+Sound=2
+intro_year=1973
+intro_month=4
+retire_year=1982
+retire_month=3
+Constraint[Next][0]=Keikyu Ms_440(Renewal:type3)
+Constraint[Next][1]=Keikyu M_440(PT:type3)
+Constraint[Next][2]=Keikyu M_440(type3)
+EmptyImage[S]=Keikyu_400_3.0.0
+EmptyImage[E]=Keikyu_400_3.0.1
+EmptyImage[SE]=Keikyu_400_3.0.2
+EmptyImage[SW]=Keikyu_400_3.0.3
+EmptyImage[N]=Keikyu_400_3.0.4
+EmptyImage[W]=Keikyu_400_3.0.5
+EmptyImage[NW]=Keikyu_400_3.0.6
+EmptyImage[NE]=Keikyu_400_3.0.7
+--------------------------------------------------------------------------------
+obj=vehicle
+name=Keikyu M_440(PT:type3)
+waytype=electrified_track
+freight=Passagiere
+speed=105
+gear=126
+payload=140
+power=440
+cost=1050000
+weight=38
+RunningCost=55
+Sound=2
+intro_year=1973
+intro_month=4
+retire_year=1982
+retire_month=3
+Constraint[Prev][0]=Keikyu Mu_440(Renewal:type3)
+Constraint[Prev][1]=Keikyu M_440(PT:type3)
+Constraint[Prev][2]=Keikyu M_440(type3)
+Constraint[Next][0]=Keikyu Ms_440(Renewal:type3)
+Constraint[Next][1]=Keikyu M_440(PT:type3)
+Constraint[Next][2]=Keikyu M_440(type3)
+EmptyImage[S]=Keikyu_400_3.1.0
+EmptyImage[E]=Keikyu_400_3.1.1
+EmptyImage[SE]=Keikyu_400_3.1.2
+EmptyImage[SW]=Keikyu_400_3.1.3
+EmptyImage[N]=Keikyu_400_3.1.4
+EmptyImage[W]=Keikyu_400_3.1.5
+EmptyImage[NW]=Keikyu_400_3.1.6
+EmptyImage[NE]=Keikyu_400_3.1.7
+--------------------------------------------------------------------------------
+obj=vehicle
+name=Keikyu M_440(type3)
+waytype=electrified_track
+freight=Passagiere
+speed=105
+gear=126
+payload=140
+power=440
+cost=1050000
+weight=38
+RunningCost=55
+intro_year=1973
+intro_month=4
+retire_year=1982
+retire_month=3
+Constraint[Prev][0]=Keikyu Mu_440(Renewal:type3)
+Constraint[Prev][1]=Keikyu M_440(PT:type3)
+Constraint[Prev][2]=Keikyu M_440(type3)
+Constraint[Next][0]=Keikyu Ms_440(Renewal:type3)
+Constraint[Next][1]=Keikyu M_440(PT:type3)
+Constraint[Next][2]=Keikyu M_440(type3)
+EmptyImage[S]=Keikyu_400_3.2.0
+EmptyImage[E]=Keikyu_400_3.2.1
+EmptyImage[SE]=Keikyu_400_3.2.2
+EmptyImage[SW]=Keikyu_400_3.2.3
+EmptyImage[N]=Keikyu_400_3.2.4
+EmptyImage[W]=Keikyu_400_3.2.5
+EmptyImage[NW]=Keikyu_400_3.2.6
+EmptyImage[NE]=Keikyu_400_3.2.7
+--------------------------------------------------------------------------------
+obj=vehicle
+name=Keikyu Ms_440(Renewal:type3)
+waytype=electrified_track
+freight=Passagiere
+speed=105
+gear=126
+payload=140
+power=440
+cost=1100000
+weight=39
+RunningCost=57
+intro_year=1973
+intro_month=4
+retire_year=1982
+retire_month=3
+Constraint[Prev][0]=Keikyu Mu_440(Renewal:type3)
+Constraint[Prev][1]=Keikyu M_440(PT:type3)
+Constraint[Prev][2]=Keikyu M_440(type3)
+EmptyImage[S]=Keikyu_400_3.3.0
+EmptyImage[E]=Keikyu_400_3.3.1
+EmptyImage[SE]=Keikyu_400_3.3.2
+EmptyImage[SW]=Keikyu_400_3.3.3
+EmptyImage[N]=Keikyu_400_3.3.4
+EmptyImage[W]=Keikyu_400_3.3.5
+EmptyImage[NW]=Keikyu_400_3.3.6
+EmptyImage[NE]=Keikyu_400_3.3.7
+--------------------------------------------------------------------------------

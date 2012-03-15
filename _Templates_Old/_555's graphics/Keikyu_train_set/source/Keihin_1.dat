@@ -1,0 +1,36 @@
+#-------------------------------------------------------------------------------
+#   Keihin_1.dat
+#　　京浜急行電鉄　1号形電車
+#
+#   著作権はありません。自由に使ってください。    
+#　　製作者 555
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=Keihin Mc_1
+copyright=555
+waytype=electrified_track
+freight=Passagiere
+speed=80
+gear=100
+payload=76
+power=147
+cost=400000
+weight=23
+length=5
+RunningCost=92
+Sound=2
+intro_year=1904
+intro_month=4
+retire_year=1937
+retire_month=12
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+EmptyImage[S]=Keihin_1_26_29.0.0
+EmptyImage[E]=Keihin_1_26_29.0.1
+EmptyImage[SE]=Keihin_1_26_29.0.2
+EmptyImage[SW]=Keihin_1_26_29.0.3
+EmptyImage[N]=Keihin_1_26_29.0.4
+EmptyImage[W]=Keihin_1_26_29.0.5
+EmptyImage[NW]=Keihin_1_26_29.0.6
+EmptyImage[NE]=Keihin_1_26_29.0.7
+--------------------------------------------------------------------------------

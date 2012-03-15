@@ -1,0 +1,110 @@
+#-------------------------------------------------------------------------------
+#   Hokuso_7260.dat
+#   北総鉄道　7260形(元京成3300形)
+#
+#   著作権はありません。自由に使ってください。    
+#　　CopyLeft 555
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=Hokuso M2_7260(front)
+waytype=electrified_track
+freight=Passagiere
+speed=110
+gear=144
+payload=127
+power=200
+cost=1550000
+weight=34
+RunningCost=39
+Sound=2
+intro_year=2006
+intro_month=4
+Constraint[Prev][0]=Hokuso M2_7260(back)
+Constraint[Prev][1]=Hokuso M1'_7260(front)
+Constraint[Prev][2]=none
+Constraint[Next][0]=Hokuso M1'_7260(front)
+EmptyImage[S]=Hokuso_7250_1.0.0
+EmptyImage[E]=Hokuso_7250_1.0.1
+EmptyImage[SE]=Hokuso_7250_1.0.2
+EmptyImage[SW]=Hokuso_7250_1.0.3
+EmptyImage[N]=Hokuso_7250_1.0.4
+EmptyImage[W]=Hokuso_7250_1.0.5
+EmptyImage[NW]=Hokuso_7250_1.0.6
+EmptyImage[NE]=Hokuso_7250_1.0.7
+--------------------------------------------------------------------------------
+obj=vehicle
+name=Hokuso M1'_7260(front)
+waytype=electrified_track
+freight=Passagiere
+speed=110
+gear=144
+payload=139
+power=400
+cost=1600000
+weight=34
+RunningCost=38
+intro_year=2006
+intro_month=4
+Constraint[Prev][0]=Hokuso M2_7260(front)
+Constraint[Next][0]=Hokuso M2_7260(front)
+Constraint[Next][1]=Hokuso M1'_7260(back)
+EmptyImage[S]=Hokuso_7250_2.1.0
+EmptyImage[E]=Hokuso_7250_2.1.1
+EmptyImage[SE]=Hokuso_7250_2.1.2
+EmptyImage[SW]=Hokuso_7250_2.1.3
+EmptyImage[N]=Hokuso_7250_2.1.4
+EmptyImage[W]=Hokuso_7250_2.1.5
+EmptyImage[NW]=Hokuso_7250_2.1.6
+EmptyImage[NE]=Hokuso_7250_2.1.7
+-------------------------------------------------------------------------------
+obj=vehicle
+name=Hokuso M1'_7260(back)
+waytype=electrified_track
+freight=Passagiere
+speed=110
+gear=144
+payload=139
+power=400
+cost=1600000
+weight=34
+RunningCost=38
+intro_year=2006
+intro_month=4
+Constraint[Prev][0]=Hokuso M1'_7260(front)
+Constraint[Prev][1]=Hokuso M2_7260(back)
+Constraint[Next][0]=Hokuso M2_7260(back)
+EmptyImage[S]=Hokuso_7250_2.2.0
+EmptyImage[E]=Hokuso_7250_2.2.1
+EmptyImage[SE]=Hokuso_7250_2.2.2
+EmptyImage[SW]=Hokuso_7250_2.2.3
+EmptyImage[N]=Hokuso_7250_2.2.4
+EmptyImage[W]=Hokuso_7250_2.2.5
+EmptyImage[NW]=Hokuso_7250_2.2.6
+EmptyImage[NE]=Hokuso_7250_2.2.7
+--------------------------------------------------------------------------------
+obj=vehicle
+name=Hokuso M2_7260(back)
+waytype=electrified_track
+freight=Passagiere
+speed=110
+gear=144
+payload=127
+power=200
+cost=1550000
+weight=34
+RunningCost=39
+intro_year=2006
+intro_month=4
+Constraint[Prev][0]=Hokuso M1'_7260(back)
+Constraint[Next][0]=Hokuso M1'_7260(back)
+Constraint[Next][1]=Hokuso M2_7260(front)
+Constraint[Next][2]=none
+EmptyImage[S]=Hokuso_7250_1.3.0
+EmptyImage[E]=Hokuso_7250_1.3.1
+EmptyImage[SE]=Hokuso_7250_1.3.2
+EmptyImage[SW]=Hokuso_7250_1.3.3
+EmptyImage[N]=Hokuso_7250_1.3.4
+EmptyImage[W]=Hokuso_7250_1.3.5
+EmptyImage[NW]=Hokuso_7250_1.3.6
+EmptyImage[NE]=Hokuso_7250_1.3.7
+-------------------------------------------------------------------------------

@@ -1,0 +1,41 @@
+TIAS Updates
+
+1.0-alpha
+/ First public release!
+/ Update: added TTD check.
+/ Update: added JapanSet3: Trains & Tracks dependencies error message.
+/ Update: added JapanSet3: Trains parameter notice.
+
+0.7
+/ Update: renamed from 0.1.x to 0.x
+/ Update: added special purchase sprites with logo (company mark from uniform) to the set.
+/ Added: KQ600, KQ700, KQ300, KQ400, KQ500 2/4-doors, KQ800, KQ2100, KQ1, KQ26, KQ29, KQ51, KQDE1, KQ2000 2/3-doors and KQ1000-1 6-car type (set completed!)
+/ Fix: Made 3 and 6 car (real) KQ trains to 4 and 8 cars long (code) for overall compatibility.
+/ Fix: Group trains' ID positions for 1st parameter 3rd setting usability.
+/ Fix: Adjusted values in language file, plus pricing fixes.
+
+0.1.6
+/ Update: KQ1000_1: added original and added aircon2 version at random.
+/ Fix: KEIKYU GROUP blocks further defined.
+
+0.1.5
+/ Fix: KS700/2200 Type 4-car: changed introduction date and added random_switch for stainless steel cars.
+/ Update: KS3150 Type 4-car: added the option to add 3100 Type 2-car units to recreate the 3190 Type KAIUN units.
+/ Fix: KS33 Type: lowered capacity.
+/ Fix: better retire_early dates for early KS types.
+/ Update: added 3rd STR_PARAM_COMPANY_BOTH setting for multiplayer.
+
+0.1.4
+/ Update: further defined KEIKYU GROUP blocks for future use.
+
+0.1.3
+/ Fix: cleared bug in KQ1000_2_8 random_switch consists.
+
+0.1.2
+/ Fix: better retire_early dates for longer life of trains.
+
+0.1.1
+/ Update: pricing update (more competitive with Japan Set).
+
+0.1.0
+/ First testing release! =)

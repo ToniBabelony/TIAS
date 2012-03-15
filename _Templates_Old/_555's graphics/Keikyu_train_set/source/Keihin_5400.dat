@@ -1,0 +1,62 @@
+#-------------------------------------------------------------------------------
+#   Keihin_5400.dat
+#   京浜急行電鉄　5400形
+#
+#   著作権はありません。自由に使ってください。    
+#　　製作者 555
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=Keihin Mu_5400
+waytype=electrified_track
+freight=Passagiere
+speed=100
+payload=140
+cost=850000
+power=448
+gear=124
+weight=39
+Sound=2
+RunningCost=67
+intro_year=1947
+intro_month=12
+retire_year=1956
+retire_month=3
+Constraint[Next][0]=Keihin Ms_5400
+Constraint[Next][1]=Keihin Mu_5400
+Constraint[Next][2]=Keihin Mc_5300
+EmptyImage[S]=Keikyu_400_2.0.0
+EmptyImage[E]=Keikyu_400_2.0.1
+EmptyImage[SE]=Keikyu_400_2.0.2
+EmptyImage[SW]=Keikyu_400_2.0.3
+EmptyImage[N]=Keikyu_400_2.0.4
+EmptyImage[W]=Keikyu_400_2.0.5
+EmptyImage[NW]=Keikyu_400_2.0.6
+EmptyImage[NE]=Keikyu_400_2.0.7
+-------------------------------------------------------------------------------
+obj=vehicle
+name=Keihin Ms_5400
+waytype=electrified_track
+freight=Passagiere
+speed=100
+payload=140
+cost=850000
+power=448
+gear=124
+weight=39
+RunningCost=67
+intro_year=1947
+intro_month=12
+retire_year=1956
+retire_month=3
+Constraint[Prev][0]=Keihin Mu_5400
+Constraint[Prev][1]=Keihin Ms_5400
+Constraint[Prev][2]=Keihin Mc_5300
+EmptyImage[S]=Keikyu_400_2.1.0
+EmptyImage[E]=Keikyu_400_2.1.1
+EmptyImage[SE]=Keikyu_400_2.1.2
+EmptyImage[SW]=Keikyu_400_2.1.3
+EmptyImage[N]=Keikyu_400_2.1.4
+EmptyImage[W]=Keikyu_400_2.1.5
+EmptyImage[NW]=Keikyu_400_2.1.6
+EmptyImage[NE]=Keikyu_400_2.1.7
+-------------------------------------------------------------------------------

@@ -1,0 +1,542 @@
+##grflangid 0x01
+# This is the English language file
+
+# GRF name and description definitions
+STR_GRF_NAME					:TIAS 1.3-alpha
+STR_GRF_DESCRIPTION				:The TIAS (Toei Inter-crossing Add-on Set) is a set that covers all standard gauge railway companies connected by the Toei Asakusa Subway line #1. {}{}{GOLD}NOTE: {BLACK}This set is not a standalone set. It is made to be used with the Japan Set Trains & Tracks. Purchase and running costs will be automatically balanced against the Japan Set Trains' settings.{}{}{COPYRIGHT} Toni Productions 2012{}License: GPL v2
+STR_GRF_URL						:http://toniproductions.nl/
+
+STR_PARAM_COMPANY_NAME			:Operator choice
+STR_PARAM_COMPANY_DESC			:All Toei inter-crossing trains are available from 1968 in either setting.{}{}* The {LTBLUE}Keisei Group {BLACK}consists of the Keisei Railway, Shin-Keisei Railway, Hokuso (Development) Railway, Chiba New Town Railway and Chiba Express Railway, plus Shibayama Railway.
+STR_PARAM_COMPANY_KEISEI		:Keisei focussed {BLACK}(all Toei inter-crossing trains & all Keisei Group* trains; max. length: 8 cars).
+STR_PARAM_COMPANY_KEIKYU		:Keikyu focussed {BLACK}(all Toei inter-crossing trains & all Keikyu trains; max. length: 12 cars for Keikyu trains, others: 8 cars).
+STR_PARAM_COMPANY_BOTH			:All companies {BLACK}(ideal for multiplayer games; max. length: 12 cars for Keikyu trains, others: 8 cars).
+
+STR_PARAM_SOUND_NAME			:Sound effects
+STR_PARAM_SOUND_DESC			:Set sound effects settings.
+STR_PARAM_SOUND_OFF				:All sounds off
+STR_PARAM_SOUND_START			:Only start sounds (horn)
+STR_PARAM_SOUND_ON				:All sounds on (running, loading, tunnel and start sounds)
+
+STR_MIN_OPENTTD_VERSION			:Requires at least OpenTTD 1.2.0/r22723 to work.
+STR_REQUIRES_JAPAN				:Requires Japan Set Trains and Japan Set Tracks in order to work. Please, list TIAS after these sets.
+STR_PARAM						:TIAS error: Japan Set Trains requires at least three parameter settings!
+
+# Keikyu consist groups
+STR_KQ_CANNOT_ATTACH_OTHER		:... no other cars can be attached.
+STR_KQ1A1_CANNOT_ATTACH_OTHER	:Can attach Keikyu GROUP 1 trains.{} 1-car units only.
+STR_KQ1A2_CANNOT_ATTACH_OTHER	:Can attach Keikyu GROUP 1 trains.{} 2-car units only.
+STR_KQ1A4_CANNOT_ATTACH_OTHER	:Can attach Keikyu GROUP 1 trains.{} 2, 3 or 4-car units only.
+STR_KQ2_CANNOT_ATTACH_OTHER		:Can only attach Keikyu GROUP 2 trains.{}.
+
+# Keikyu Type 1
+STR_KQ1_NAME					:Type 1 (1 car)
+STR_KQ1_ADDITIONAL_TEXT			:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 1{}{BLACK}Operator: {BROWN}Keihin Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KQ1_CANNOT_START			:... no other cars can be attached.
+
+# Keikyu Type 26
+STR_KQ26_NAME					:Type 26 (1 car)
+STR_KQ26_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 1{}{BLACK}Operator: {BROWN}Keihin Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KQ26_CANNOT_START			:... no other cars can be attached.
+
+# Keikyu Type 29
+STR_KQ29_NAME					:Type 29 (1 car)
+STR_KQ29_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 1{}{BLACK}Operator: {BROWN}Keihin Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KQ29_CANNOT_START			:... no other cars can be attached.
+
+# Keikyu Type 41/51
+STR_KQ51_NAME					:41/51 & 120/150 Type (1 car) {GREEN} GROUP 1
+STR_KQ51_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 1{}{BLACK}Operator: {RED}Keihin Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keikyu{GREEN} Group 1{BLACK} units, or have other 1-car units attached to up to 8 cars.{}
+STR_KQ51_CANNOT_START			:... can be attached to Group 1 units up to 8 cars.
+STR_KQ51_CANNOT_ATTACH_OTHER	:... no other cars can be attached.
+
+# Keikyu Type DE1
+STR_KQDE1_NAME					:DE1/230 Type (1 car) {GREEN} GROUP 1
+STR_KQDE1_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 1{}{BLACK}Operator until 1948: {BROWN}Shonan Electric Railway{}{BLACK}Operator from 1948: {RED}Keihin Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keikyu{GREEN} Group 1{BLACK} units, or have other 1-car units attached to up to 8 cars.{}
+STR_KQDE1_CANNOT_START			:... can be attached to Group 1 units up to 8 cars.
+STR_KQDE1_CANNOT_ATTACH_OTHER	:... no other cars can be attached.
+
+# Keikyu Type 300
+STR_KQ300_2_NAME				:300/400 1st Type (2 cars) {GREEN} GROUP 1
+STR_KQ300_3_NAME				:300/400 1st Type (3 cars) {GREEN} GROUP 1
+STR_KQ300_4_NAME				:300/400 1st Type (4 cars) {GREEN} GROUP 1
+STR_KQ300_2_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 2{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keikyu{GREEN} Group 1{BLACK} units up to 8 cars.{}
+STR_KQ300_3_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 3{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keikyu{GREEN} Group 1{BLACK} units up to 8 cars.{}
+STR_KQ300_4_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keikyu{GREEN} Group 1{BLACK} units up to 8 cars.{}
+STR_KQ300_CANNOT_START			:... train too long. Max. 8 cars.
+
+# Keikyu 500 2D
+STR_KQ5002_2_NAME				:500 Type 2 doors (2 cars) {GREEN} GROUP 1
+STR_KQ5002_4_NAME				:500 Type 2 doors (4 cars) {GREEN} GROUP 1
+STR_KQ5002_2_ADDITIONAL_TEXT	:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 2{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Express services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keikyu{GREEN} Group 1{BLACK} units up to 8 cars.{}
+STR_KQ5002_4_ADDITIONAL_TEXT	:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Express services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keikyu{GREEN} Group 1{BLACK} units up to 8 cars.{}
+STR_KQ5002_CANNOT_START			:... train too long. Max. 8 cars.
+
+# Keikyu 600/700
+STR_KQ600_2_NAME				:600/700 1st Type (2 cars) {GREEN} GROUP 1
+STR_KQ600_4_NAME				:600/700 1st Type (4 cars) {GREEN} GROUP 1
+STR_KQ600_2_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 2{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Express services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keikyu{GREEN} Group 1{BLACK} units up to 8 cars.{}
+STR_KQ600_4_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Express services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keikyu{GREEN} Group 1{BLACK} units up to 8 cars.{}
+STR_KQ600_CANNOT_START			:... train too long. Max. 8 cars.
+
+# Keikyu Type 1000, 1st Series
+STR_KQ1000_1KS_2_NAME					:1000 1st Type (2 cars)
+STR_KQ1000_1KS_2_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 2{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can only be attached to 1000 1st Type units.{}
+STR_KQ1000_1KSa_4_NAME					:1000 1st Type (4 cars)
+STR_KQ1000_1KSa_4_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can only be attached to 1000 1st Type 4-car units.{}
+STR_KQ1000_1KSb_4_NAME					:1000 1st new Type (4 cars)
+STR_KQ1000_1KSb_4_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can only be attached to 1000 1st Type 4-car units.{}
+STR_KQ1000_1KSa_6_NAME					:1000 1st Type (6 cars)
+STR_KQ1000_1KSa_6_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 6{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KQ1000_1KSb_6_NAME					:1000 1st new Type (6 cars)
+STR_KQ1000_1KSb_6_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 6{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KQ1000_1KSa_8_NAME					:1000 1st Type (8 cars)
+STR_KQ1000_1KSa_8_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KQ1000_1KSb_8_NAME					:1000 1st new Type (8 cars)
+STR_KQ1000_1KSb_8_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KQ1000_1KS_CANNOT_START				:... train too long. Max. 8 cars.
+STR_KQ1000_1KQ_2_NAME					:800/1000 1st Type (2 cars) {GREEN} GROUP 1/2
+STR_KQ1000_1KQ_2_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 2{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keikyu{GREEN} Group 1/2{BLACK} units.{}
+STR_KQ1000_1KQa_4_NAME					:800/1000 1st Type (4 cars) {GREEN} GROUP 1/2
+STR_KQ1000_1KQa_4_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keikyu{GREEN} Group 1/2{BLACK} units.{}
+STR_KQ1000_1KQb_4_NAME					:1000 1st new Type (4 cars) {GREEN} GROUP 1/2
+STR_KQ1000_1KQb_4_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keikyu{GREEN} Group 1/2{BLACK} units.{}
+STR_KQ1000_1KQa_6_NAME					:800/1000 1st Type (6 cars) {GREEN} GROUP 1/2
+STR_KQ1000_1KQa_6_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 6{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can only have other Keikyu{GREEN} Group 1{BLACK} units attached.{}
+STR_KQ1000_1KQb_6_NAME					:1000 1st new Type (6 cars) {GREEN} GROUP 1/2
+STR_KQ1000_1KQb_6_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 6{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can only have other Keikyu{GREEN} Group 2{BLACK} units attached.{}
+STR_KQ1000_1KQa_8_NAME					:800/1000 1st Type (8 cars) {GREEN} GROUP 1/2
+STR_KQ1000_1KQa_8_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can only have other Keikyu{GREEN} Group 1{BLACK} units attached.{}
+STR_KQ1000_1KQb_8_NAME					:1000 1st new Type (8 cars) {GREEN} GROUP 1/2
+STR_KQ1000_1KQb_8_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can only have other Keikyu{GREEN} Group 2{BLACK} units attached.{}
+STR_KQ1000_1KQ_CANNOT_START				:... train too long. Max. 12 cars.
+STR_KQ1000_1_CANNOT_ATTACH_OTHER		:... no cars can be attached, other than 1000 1st Type.
+
+# Keikyu 400, 2nd
+STR_KQ400_2_NAME				:400 Type (2 cars) {GREEN} GROUP 1
+STR_KQ400_4_NAME				:400 Type (4 cars) {GREEN} GROUP 1
+STR_KQ400_2_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 2{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keikyu{GREEN} Group 1{BLACK} units up to 8 cars.{}
+STR_KQ400_4_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keikyu{GREEN} Group 1{BLACK} units up to 8 cars.{}
+STR_KQ400_CANNOT_START			:... train too long. Max. 8 cars.
+
+# Keikyu 700, 2nd
+STR_KQ700_3_NAME				:700 2nd Type (3 cars) {GREEN} GROUP 1
+STR_KQ700_4_NAME				:700 2nd Type (4 cars) {GREEN} GROUP 1
+STR_KQ700_3_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 3{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Heavy commuter services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keikyu{GREEN} Group 1{BLACK} units up to 8 cars.{}
+STR_KQ700_4_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Heavy commuter services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keikyu{GREEN} Group 1{BLACK} units up to 8 cars.{}
+STR_KQ700_CANNOT_START			:... train too long. Max. 8 cars.
+
+# Keikyu 500 4D
+STR_KQ5004_NAME					:500 Type, 4 doors (4 cars){GREEN} GROUP 1
+STR_KQ5004_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Heavy commuter services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keikyu{GREEN} Group 1{BLACK} units up to 8 cars.{}
+STR_KQ5004_CANNOT_START			:... train too long. Max. 8 cars.
+
+# Keikyu Type 800, 2nd Series
+STR_KQ800_3_NAME				:800 2nd Type (3 cars) {GREEN} GROUP 1/2
+STR_KQ800_6_NAME				:800 2nd Type (6 cars) {GREEN} GROUP 1/2
+STR_KQ800_3_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 3{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Heavy commuter services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keikyu{GREEN} Group 1/2{BLACK} units.{}
+STR_KQ800_6_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 6{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Heavy commuter services.{}{GOLD}NOTES: {BLACK}Can only have other Keikyu{GREEN} Group 2{BLACK} units attached.{}
+STR_KQ800_CANNOT_START			:... train too long. Max. 12 cars.
+
+# Keikyu Type 2000 2D
+STR_KQ20002_NAME					:2000 Type, 2 doors (8 cars){GREEN} GROUP 2
+STR_KQ20002_ADDITIONAL_TEXT			:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Express services.{}{GOLD}NOTES: {BLACK}Can only have other Keikyu{GREEN} Group 2{BLACK} units attached.{}
+STR_KQ20002_CANNOT_START			:... train too long. Max. 12 cars.
+
+# Keikyu Type 1500
+STR_KQ1500KS_4_NAME					:1500 Type (4 cars)
+STR_KQ1500KS_4_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can only be attached to 1500 Type 4-car units.{}
+STR_KQ1500KS_6_NAME					:1500 Type (6 cars)
+STR_KQ1500KS_6_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 6{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KQ1500KS_8_NAME					:1500 Type (8 cars)
+STR_KQ1500KS_8_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KQ1500KS_CANNOT_START			:... train too long. Max. 8 cars.
+STR_KQ1500KS_CANNOT_ATTACH_OTHER 	:... no cars can be attached, other than 1500 Type 4-car units.
+STR_KQ1500KQ_4_NAME					:1500 Type (4 cars) {GREEN} GROUP 2 
+STR_KQ1500KQ_4_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can only be attached to other Keikyu{GREEN} Group 2{BLACK} units.{}
+STR_KQ1500KQ_6_NAME					:1500 Type (6 cars) {GREEN} GROUP 2
+STR_KQ1500KQ_6_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 6{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can only be attached to other Keikyu{GREEN} Group 2{BLACK} units.{}
+STR_KQ1500KQ_8_NAME					:1500 Type (8 cars) {GREEN} GROUP 2 
+STR_KQ1500KQ_8_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can only have other Keikyu{GREEN} Group 2{BLACK} units attached.{}
+STR_KQ1500KQ_CANNOT_START			:... train too long. Max. 12 cars.
+STR_KQ1500KQ_CANNOT_ATTACH_OTHER 	:... no cars can be attached, other than in the description.
+
+# Keikyu Type 600, 3rd Series
+STR_KQ600_3KS_4_NAME					:600 3 Type (4 cars)
+STR_KQ600_3KS_4_ADDITIONAL_TEXT			:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can only be attached to 600 3 Type 4-car units.{}
+STR_KQ600_3KS_8_NAME					:600 3 Type (8 cars)
+STR_KQ600_3KS_8_ADDITIONAL_TEXT			:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Will appear as KEIKYU SKY BLUE TRAIN after 2005 at random. Cannot be attached to any other train.{}
+STR_KQ600_3KS_CANNOT_START				:... train too long. Max. 12 cars.
+STR_KQ600_3KS_CANNOT_ATTACH_OTHER		:... no cars can be attached, other than 600 3 Type 4-car units.
+STR_KQ600_3KQ_4_NAME					:600 3 Type (4 cars){GREEN} GROUP 2 
+STR_KQ600_3KQ_4_ADDITIONAL_TEXT			:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keikyu{GREEN} Group 2{BLACK} units.{}
+STR_KQ600_3KQ_8_NAME					:600 3 Type (8 cars){GREEN} GROUP 2 
+STR_KQ600_3KQ_8_ADDITIONAL_TEXT			:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Will appear as KEIKYU SKY BLUE TRAIN after 2005 at random. Can only have other Keikyu{GREEN} Group 2{BLACK} units attached{}
+STR_KQ600_3KQ_CANNOT_START				:... train too long. Max. 12 cars.
+STR_KQ600_3KQ_CANNOT_ATTACH_OTHER		:... no cars can be attached, other than in the description.
+
+# Keikyu Type 2100
+STR_KQ2100_NAME					:2100 Type (8 cars){GREEN} GROUP 2
+STR_KQ2100_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Express services.{}{GOLD}NOTES: {BLACK}Will appear as KEIKYU SKY BLUE TRAIN between 1998 and 2005 at random. Can only have other Keikyu{GREEN} Group 2{BLACK} units attached.{}}
+STR_KQ2100_CANNOT_START			:... train too long. Max. 12 cars.
+
+# Keikyu Type 2000 3D
+STR_KQ20003_4_NAME					:2000 Type, 3 doors (4 cars){GREEN} GROUP 2
+STR_KQ20003_4_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Express services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keikyu{GREEN} Group 2{BLACK} units.{}
+STR_KQ20003_8_NAME					:2000 Type, 3 doors (8 cars){GREEN} GROUP 2
+STR_KQ20003_8_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Express services.{}{GOLD}NOTES: {BLACK}Can only have other Keikyu{GREEN} Group 2{BLACK} units attached.{}
+STR_KQ20003_CANNOT_START			:... train too long. Max. 12 cars.
+
+# Keikyu Type 1000, 2nd Series
+STR_KQ1000_2KS_4_NAME					:1000 2 Type (4 cars)
+STR_KQ1000_2KS_4_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can only be attached to 1000 3 Type 4-car units.{}
+STR_KQ1000_2KS_8_NAME					:1000 2 Type (8 cars)
+STR_KQ1000_2KS_8_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Will appear as KEIKYU SKY BLUE TRAIN after 2005 at random. Cannot be attached to any other train.{}
+STR_KQ1000_2KS_CANNOT_START				:... train too long. Max. 12 cars.
+STR_KQ1000_2KS_CANNOT_ATTACH_OTHER		:... no other cars can be attached, other than 1000 3 Type 4-car units.
+STR_KQ1000_2KQ_4_NAME					:1000 2 Type (4 cars) {GREEN} GROUP 2 
+STR_KQ1000_2KQ_4_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keikyu{GREEN} Group 2{BLACK} units.{}
+STR_KQ1000_2KQ_8_NAME					:1000 2 Type (8 cars) {GREEN} GROUP 2 
+STR_KQ1000_2KQ_8_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {RED}Keihin Express Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Will appear as KEIKYU SKY BLUE TRAIN after 2005 at random. {BLACK}Can only have other Keikyu{GREEN} Group 2{BLACK} units attached{}
+STR_KQ1000_2KQ_CANNOT_START				:... train too long. Max. 12 cars.
+STR_KQ1000_2KQ_CANNOT_ATTACH_OTHER		:... no cars can be attached, other than in the description.
+
+# Keisei Type 1
+STR_KS1_1_NAME					:Type 1, (1 car)
+STR_KS1_1_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 1 {}{BLACK}Operator: {LTBLUE}Keisei Electric Railroad Track{}{BLACK}Use: {GOLD} Commuter services{}{GOLD}NOTES: {BLACK}Single EMU, only other single Keisei units can be attached; has a max. length of 4 cars.{}
+STR_KS1_2_NAME					:Type 1, (2 cars)
+STR_KS1_2_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 2{}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use:{GOLD} Commuter services{}{GOLD}NOTES: {BLACK}Trailer car is not powered; has a max. length of 4 cars.{}
+STR_KS1_CANNOT_START			:... train too long. Max. 4 cars.
+STR_KS1_CANNOT_ATTACH_OTHER		:... no other cars can be attached.
+
+# Keisei Type 20
+STR_KS20_NAME					:20/100 Type (1 car)
+STR_KS20_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 1{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use:{GOLD}Commuter services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keisei (1 car) units or as a trailer to consists; has a max. length of 4 cars.{}
+STR_KS20_CANNOT_START			:... train too long. Max. 4 cars.
+STR_KS20_CANNOT_ATTACH_OTHER	:... no cars, other than Keisei (1 car) units, can be attached.
+
+# Keisei Type 33
+STR_KS33_NAME					:33/39/45 Type (1 car)
+STR_KS33_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 1{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use:{GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keisei (1 car) units or as a trailer to consists; has a max. length of 4 cars.{}
+STR_KS33_CANNOT_START			:... train too long. Max. 4 cars.
+STR_KS33_CANNOT_ATTACH_OTHER 	:.... no cars, other than Keisei (1 car) units, can be attached.
+
+# Keisei Type 200
+STR_KS200_NAME					:200/1100 Type (1 car)
+STR_KS200_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 1{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use:{GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keisei (1 car) units or as a trailer to consists; has a max. length of 4 cars.{}
+STR_KS200_CANNOT_START			:... train too long. Max. 4 cars.
+STR_KS200_CANNOT_ATTACH_OTHER 	:... no cars, other than Keisei (1 car) units, can be attached.
+
+# Keisei Type 300
+STR_KS300_NAME					:300 Type (1 car)
+STR_KS300_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 1{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use:{GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can be attached to other Keisei (1 car) units or as a trailer to consists; has a max. length of 4 cars.{}
+STR_KS300_CANNOT_START			:... train too long. Max. 4 cars.
+STR_KS300_CANNOT_ATTACH_OTHER 	:... no cars, other than Keisei (1 car) units, can be attached.
+
+# Keisei Type 600
+STR_KS600_NAME					:600 Type (2 cars)
+STR_KS600_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 2{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use:{GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can be attached to other 2-car< Keisei trains; has a max. length of 4 cars.{}
+STR_KS600_CANNOT_START			:... train too long. Max. 4 cars.
+STR_KS600_CANNOT_ATTACH_OTHER 	:... no cars, other than Keisei units, can be attached.
+
+# Keisei Type 1500
+STR_KS1500_NAME					:1500 Type KAIUN (2 cars)
+STR_KS1500_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 2{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use:{GOLD} Limited Express services. (Express Kaiun){}{GOLD}NOTES: {BLACK}Can be doubled in length by another 1500 Series unit set.{}
+STR_KS1500_CANNOT_START			:... train too long. Max. 4 cars.
+STR_KS1500_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Keisei Type 1600
+STR_KS1600_NAME					:1600 Type KAIUN (2/3 cars)
+STR_KS1600_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 2, 3 after 1957{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use:{GOLD} Limited Express services. (Express Kaiun){}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS1600_CANNOT_START			:... no other consists allowed.
+STR_KS1600_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Keisei Type 700, 2200
+STR_KS700_2_NAME				:700/2200 Type (2 cars)
+STR_KS700_2_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 2{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use:{GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can be attached to other 2-car< Keisei trains; has a max. length of 6 cars.{}
+STR_KS700_4_NAME				:700/2200 (4 cars)
+STR_KS700_4_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{RED}WARNING!{GOLD} Keisei 700/2200 (4 car) always needs to be first in consist to avoid graphical glitches.{}{BLACK}Use: {GOLD}Commuter services.{}{GOLD}NOTES: {BLACK}Will appear with stainless steel middle cars at random. Can be attached to other 2-car< Keisei trains; has a max. length of 6 cars.{}
+STR_KS700_CANNOT_START			:... train too long. Max. 6 cars.
+STR_KS700_CANNOT_ATTACH_OTHER 	:... no cars, other than Keisei units, can be attached.
+
+# Keisei Type 3000, 3050, 1st Series
+STR_KS3000_3050_2_NAME					:3000/3050-1 Type (2 cars)
+STR_KS3000_3050_4_NAME					:3000/3050-1 Type (4 cars)
+STR_KS3000_3050_6_NAME					:3000/3050-1 Type (6 cars)
+STR_KS3000_3050_8_NAME					:3000/3050-1 Type (8 cars)
+STR_KS3000_3050_2_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 2{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use:{GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can only be attached to 3000/3050 2 and 4-car Type units.{}
+STR_KS3000_3050_4_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can only be attached to 3000/3050 Type 2 and 4-car units.{}
+STR_KS3000_3050_6_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 6{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use:{GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can only be attached to 3000/3050 Type 2-car units.{}
+STR_KS3000_3050_8_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use: {GOLD} Limited Express services. (Express Kaiun){}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS3000_3050_CANNOT_START			:... train too long. Max. 8 cars.
+STR_KS3000_3050_CANNOT_ATTACH_OTHER 	:... no cars can be attached, other than 3000, 3050 Type, 1st Series.
+
+# Keisei Type 3100
+STR_KS3100_2_NAME					:3100 Type (2 cars)
+STR_KS3100_4_NAME					:3100 Type (4 cars)
+STR_KS3100_2_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 2{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use:{GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can only be attached to 3100 Type units.{}
+STR_KS3100_4_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can only be attached to 3100 Type units.{}
+STR_KS3100_CANNOT_START				:... train too long. Max. 8 cars.
+STR_KS3100_CANNOT_ATTACH_OTHER		:... no cars can be attached, other than 3100 Type.
+
+# Keisei Type 3150
+STR_KS3150_4_NAME				:3150 Type (4 cars)
+STR_KS3150_4_ADDITIONAL_TEXT	:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use: {GOLD} Commuter services / Express services (KAIUN){}{GOLD}NOTES: {BLACK}Can only be attached to 3150 Type units or 3100 Type 2-car units.{}
+STR_KS3150_CANNOT_START			:... train too long. Max. 8 cars.
+STR_KS3150_CANNOT_ATTACH_OTHER 	:... no cars can be attached, other than 3150 Type or 3100 Type 2-cars.
+
+# Keisei Type 200, 2000
+STR_KS200_2000_NAME					:200, 2000 Type (4 cars)
+STR_KS200_2000_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use:{GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS200_2000_CANNOT_START			:... train too long. Max. 6 cars.
+STR_KS200_2000_CANNOT_ATTACH_OTHER 	:... no cars can be attached, other than 200, 2000 Type.
+
+# Keisei Type 3200
+STR_KS3200_4_NAME				:3200 Type (4 cars)
+STR_KS3200_4_ADDITIONAL_TEXT	:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can only be attached to 3200 Type 4-car units.{}
+STR_KS3200_6_NAME				:3200 Type (6 cars)
+STR_KS3200_6_ADDITIONAL_TEXT	:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 6{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS3200_CANNOT_START			:... train too long. Max. 8 cars.
+STR_KS3200_CANNOT_ATTACH_OTHER 	:... no cars can be attached, other than 3200 Type.
+
+# Keisei Type 3300
+STR_KS3300_4_NAME				:3300 Type (4 cars)
+STR_KS3300_4_ADDITIONAL_TEXT	:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can only be attached to 3300 Type 4-car units. Random livery after 2009.{}
+STR_KS3300_6_NAME				:3300 Type (6 cars)
+STR_KS3300_6_ADDITIONAL_TEXT	:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 6{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS3300_8_NAME				:3300 Type (8 cars)
+STR_KS3300_8_ADDITIONAL_TEXT	:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS3300_CANNOT_START			:... train too long. Max. 8 cars.
+STR_KS3300_CANNOT_ATTACH_OTHER 	:... no cars can be attached, other than 3300 Type.
+
+# Keisei Type 3500
+STR_KS3500_NAME					:3500 Type (4 cars)
+STR_KS3500_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can only be attached to 3500 Type units.{}
+STR_KS3500_CANNOT_START			:... train too long. Max. 8 cars.
+STR_KS3500_CANNOT_ATTACH_OTHER 	:... no cars can be attached, other than 3500 Type.
+
+# Keisei Type AE1
+STR_KSAE1_6_NAME				:AE1 Type (6 cars)
+STR_KSAE1_6_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 6{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use:{GOLD} Express services (Skyliner){}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KSAE1_8_NAME				:AE1 Type (8 cars)
+STR_KSAE1_8_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use:{GOLD} Express services (Skyliner){}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KSAE1_CANNOT_START			:... train too long.
+STR_KSAE1_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Keisei Type 3600
+STR_KS3600_2_NAME				:3600 Type (2 cars)
+STR_KS3600_2_ADDITIONAL_TEXT	:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 2{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use:{GOLD} Commuter services{}{GOLD}NOTES: {BLACK}Can only be attached to 3600 Type 2-car units.{}
+STR_KS3600_6_NAME				:3600 Type (6 cars)
+STR_KS3600_6_ADDITIONAL_TEXT	:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 6{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use:{GOLD} Commuter services{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS3600_8_NAME				:3600 Type (8 cars)
+STR_KS3600_8_ADDITIONAL_TEXT	:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{BLACK} or{GREEN} Shibayama Railway{}{BLACK}Use:{GOLD} Commuter services{}{GOLD}NOTES: {BLACK}Will appear at random as Shibayama Railway train after 2003. Cannot be attached to any other train.{}
+STR_KS3600_CANNOT_START			:... train too long.
+STR_KS3600_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Keisei Type 3700
+STR_KS3700_6_NAME				:3700 Type (6 cars)
+STR_KS3700_6_ADDITIONAL_TEXT	:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use:{GOLD} Commuter services{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS3700_8_NAME				:3700 Type (8 cars)
+STR_KS3700_8_ADDITIONAL_TEXT	:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use:{GOLD} Commuter services{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS3700_CANNOT_START			:... train too long.
+STR_KS3700_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Keisei Type AE100
+STR_KSAE100_NAME					:AE100 Type (8 cars)
+STR_KSAE100_ADDITIONAL_TEXT			:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use:{GOLD} Express services (Skyliner){}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KSAE100_CANNOT_START			:... train too long.
+STR_KSAE100_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Keisei Type 3400
+STR_KS3400_NAME					:3400 Type (8 cars)
+STR_KS3400_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use:{GOLD} Commuter services{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS3400_CANNOT_START			:... train too long.
+STR_KS3400_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Keisei Type 3000, 2nd Series
+STR_KS3000_2_6_NAME					:3000 2nd Type (6 cars)
+STR_KS3000_2_6_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 6{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS3000_2_8_NAME					:3000 2nd Type (8 cars)
+STR_KS3000_2_8_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS3000_2_CANNOT_START			:... train too long.
+STR_KS3000_2_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Keisei Type AE2
+STR_KSAE2_NAME					:AE2 Type (8 cars)
+STR_KSAE2_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use:{GOLD} Express services (Skyliner){}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KSAE2_CANNOT_START			:... train too long.
+STR_KSAE2_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Keisei Type 3050, 2nd Series
+STR_KS3050_2_NAME					:3050 2nd Type(8 cars)
+STR_KS3050_2_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {LTBLUE}Keisei Electric Railway{}{BLACK}Use: {GOLD} Fast commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_KS3050_2_CANNOT_START			:... train too long.
+STR_KS3050_2_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Hokuso Kaihatsu Type 7000
+STR_HKT7000_6_NAME					:7000 Type (6 cars)
+STR_HKT7000_6_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 6{}{BLACK}Operator: {YELLOW}Hokuso Development Railway{}{BLACK}Use:{GOLD} Commuter services{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_HKT7000_8_NAME					:7000 Type (8 cars)
+STR_HKT7000_8_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {YELLOW}Hokuso Development Railway{}{BLACK}Use:{GOLD} Commuter services{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_HKT7000_CANNOT_START			:... train too long.
+STR_HKT7000_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Hokuso Kaihatsu Type 7150
+STR_HKT7150_NAME					:7150 Type (4 cars)
+STR_HKT7150_ADDITIONAL_TEXT			:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {YELLOW}Hokuso Development Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Leased from Keisei. Can only be attached to 7050 Type units.{}
+STR_HKT7150_CANNOT_START			:... train too long. Max. 8 cars.
+STR_HKT7150_CANNOT_ATTACH_OTHER 	:... no cars can be attached, other than 7150 Type.
+
+# Hokuso Kaihatsu Type 7050
+STR_HKT7050_NAME					:7050 Type (4 cars)
+STR_HKT7050_ADDITIONAL_TEXT			:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {YELLOW}Hokuso Development Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Leased from Keisei. Can only be attached to 7050 Type units.{}
+STR_HKT7050_CANNOT_START			:... train too long. Max. 8 cars.
+STR_HKT7050_CANNOT_ATTACH_OTHER 	:... no cars can be attached, other than 7050 Type.
+
+# Hokuso Kaihatsu Type 7300
+STR_HKT7300_NAME					:7300 Type (8 cars)
+STR_HKT7300_ADDITIONAL_TEXT			:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {YELLOW}Hokuso Development Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_HKT7300_CANNOT_START			:... train too long. Max. 8 cars.
+STR_HKT7300_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Hokuso Kaihatsu Type 7250
+STR_HKT7250_NAME					:7250 Type (8 cars)
+STR_HKT7250_ADDITIONAL_TEXT			:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {YELLOW}Hokuso Development Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Leased from Keisei. Cannot be attached to any other train.{}
+STR_HKT7250_CANNOT_START			:... train too long. Max. 8 cars.
+STR_HKT7250_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Hokuso Type 7260
+STR_HT7260_NAME					:7260 Type (4 cars)
+STR_HT7260_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {YELLOW}Hokuso Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Leased from Keisei. Cannot be attached to any other train.{}
+STR_HT7260_CANNOT_START			:... train too long.
+STR_HT7260_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Hokuso  Type 7500
+STR_HT7500_NAME					:7500 Type (8 cars)
+STR_HT7500_ADDITIONAL_TEXT			:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {YELLOW}Hokuso Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_HT7500_CANNOT_START			:... train too long. Max. 8 cars.
+STR_HT7500_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Chiba New Town Type 2000/9000
+STR_CNT9000_6_NAME					:2000 Type (6 cars)
+STR_CNT9000_6_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 6{}{BLACK}Operator: {ORANGE}Housing and Development Corporation{}{BLACK}Use:{GOLD} Commuter services{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_CNT9000_8_NAME					:2000/9000 Type (8 cars)
+STR_CNT9000_8_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator (until 1999): {ORANGE}Housing and Development Corporation{}{BLACK}Operator (1999-2004): {PURPLE}Urban Development Corporation{}{BLACK}Operator (from 2004): {DKGREEN}Chiba New Town Railway{}{BLACK}Use:{GOLD} Commuter services{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_CNT9000_CANNOT_START			:... train too long.
+STR_CNT9000_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Chiba New Town Type 9100
+STR_CNT9100_NAME					:9100 Type (8 cars)
+STR_CNT9100_ADDITIONAL_TEXT			:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator (until 1999): {ORANGE}Housing and Development Corporation{}{BLACK}Operator (1999-2004): {PURPLE}Urban Development Corporation{}{BLACK}Operator (from 2004): {DKGREEN}Chiba New Town Railway{}{BLACK}Use:{GOLD} Commuter services{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_CNT9100_CANNOT_START			:... train too long.
+STR_CNT9100_CANNOT_ATTACH_OTHER		:... no other cars can be attached.
+
+# Toei Type 5000
+STR_TOEI5000_2_NAME					:5000 Type (2 cars)
+STR_TOEI5000_2_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 2{}{BLACK}Operator: {WHITE} Tokyo Metropolitan Bureau of Transport{}{BLACK}Use:{GOLD} Commuter services{}{GOLD}NOTES: {BLACK}Can only be attached to 5000 Type units.{}
+STR_TOEI5000_4_NAME					:5000 Type (4 cars)
+STR_TOEI5000_4_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {WHITE} Tokyo Metropolitan Bureau of Transport{}{BLACK}Use:{GOLD} Commuter services{}{GOLD}NOTES: {BLACK}Can only be attached to 5000 Type 4-car units.{}
+STR_TOEI5000_CANNOT_START			:... train too long, max. 8 cars.
+STR_TOEI5000_CANNOT_ATTACH_OTHER 	:... no cars can be attached, other than 5000 Type.
+
+# Toei Type 5200
+STR_TOEI5200_6_NAME					:5200 Type (6 cars)
+STR_TOEI5200_6_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 6{}{BLACK}Operator: {WHITE} Tokyo Metropolitan Bureau of Transport{}{BLACK}Use:{GOLD} Commuter services{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_TOEI5200_8_NAME					:5200 Type (8 cars)
+STR_TOEI5200_8_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {WHITE} Tokyo Metropolitan Bureau of Transport{}{BLACK}Use:{GOLD} Commuter services{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_TOEI5200_CANNOT_START			:... train too long.
+STR_TOEI5200_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Toei Type 5300
+STR_TOEI5300_NAME					:5300 Type (8 cars)
+STR_TOEI5300_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {WHITE} Tokyo Metropolitan Bureau of Transport{}{BLACK}Use:{GOLD} Commuter services{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_TOEI5300_CANNOT_START			:... train too long.
+STR_TOEI5300_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Shin-Keisei Type 33
+STR_SKS33_NAME					:33/39/45 Type (1 car)
+STR_SKS33_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 1{}{BLACK}Operator: {CREAM}Shin-Keisei Electric Railway{}{BLACK}Use:{GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}2nd-hand units bought from Keisei. Can be attached to other Shin-Keisei (1 car) units or as a trailer to consists; has a max. length of 8 cars.{}
+STR_SKS33_CANNOT_START			:... train too long. Max. 8 cars.
+STR_SKS33_CANNOT_ATTACH_OTHER 	:... no other cars other than Shin-Keisei (1 car) units can be attached.
+
+# Shin-Keisei Type 300
+STR_SKS300_NAME					:300 Type (2 cars)
+STR_SKS300_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 2{}{BLACK}Operator: {CREAM}Shin-Keisei Electric Railway{}{BLACK}Use:{GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}2nd-hand 300 and 45 Type units bought from Keisei. Can be attached to other 2-car< Shin-Keisei trains; has a max. length of 8 cars.{}
+STR_SKS300_CANNOT_START			:... train too long. Max. 8 cars.
+STR_SKS300_CANNOT_ATTACH_OTHER 	:... no cars, other than Shin-Keisei units, can be attached.
+
+# Shin-Keisei Type 800
+STR_SKS800_4_NAME				:800 Type (4 cars)
+STR_SKS800_4_ADDITIONAL_TEXT	:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {CREAM}Shin-Keisei Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Can only be attached to 800 Type 4-car units.{}
+STR_SKS800_6_NAME				:800 Type (6 cars)
+STR_SKS800_6_ADDITIONAL_TEXT	:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 6{}{BLACK}Operator: {CREAM}Shin-Keisei Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_SKS800_8_NAME				:800 Type (8 cars)
+STR_SKS800_8_ADDITIONAL_TEXT	:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {CREAM}Shin-Keisei Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_SKS800_CANNOT_START			:... train too long. Max. 8 cars.
+STR_SKS800_CANNOT_ATTACH_OTHER 	:... no cars can be attached, other than in the description.
+
+# Shin-Keisei Type 20~2000
+STR_SKS20_1_NAME				:Standard Type (1 car)
+STR_SKS20_2_NAME				:Standard Type (2 cars)
+STR_SKS20_4_NAME				:Standard Type (4 cars)
+STR_SKS20_1_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 1{}{BLACK}Operator: {CREAM}Shin-Keisei Electric Railway{}{BLACK}Use:{GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}2nd-hand units bought from Keisei. Can be attached to other 1-car Shin-Keisei trains; has a max. length of 8 cars.{}
+STR_SKS20_2_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 2{}{BLACK}Operator: {CREAM}Shin-Keisei Electric Railway{}{BLACK}Use:{GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}2nd-hand units bought from Keisei. Can be attached to other 2-car< Shin-Keisei trains; has a max. length of 8 cars.{}
+STR_SKS20_4_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {CREAM}Shin-Keisei Electric Railway{}{BLACK}Use:{GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}2nd-hand units bought from Keisei. Can be attached to other 2-car< Shin-Keisei trains; has a max. length of 8 cars.{}
+STR_SKS20_CANNOT_START			:... train too long. Max. 8 cars.
+STR_SKS20_CANNOT_ATTACH_OTHER 	:... no cars other than Shin-Keisei units, can be attached.
+
+# Shin-Keisei Type 8000
+STR_SKS8000_NAME					:8000 Type (6 cars)
+STR_SKS8000_ADDITIONAL_TEXT			:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 6{}{BLACK}Operator: {CREAM}Shin-Keisei Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train. Random livery after 2001.{}
+STR_SKS8000_CANNOT_START			:... train too long. Max. 6 cars.
+STR_SKS8000_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Shin-Keisei Type 8800
+STR_SKS8800_6_NAME					:8800 Type (6 cars)
+STR_SKS8800_6_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 6{}{BLACK}Operator: {CREAM}Shin-Keisei Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_SKS8800_8_NAME					:8800 Type (8 cars)
+STR_SKS8800_8_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {CREAM}Shin-Keisei Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_SKS8800_CANNOT_START			:... train too long. Max. 8 cars.
+STR_SKS8800_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Shin-Keisei Type 8900
+STR_SKS8900_NAME					:8900 Type (8 cars)
+STR_SKS8900_ADDITIONAL_TEXT			:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {CREAM}Shin-Keisei Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_SKS8900_CANNOT_START			:... train too long.
+STR_SKS8900_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Shin-Keisei Type N800
+STR_SKSN800_NAME					:N800 Type (6 cars)
+STR_SKSN800_ADDITIONAL_TEXT			:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 6{}{BLACK}Operator: {CREAM}Shin-Keisei Electric Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_SKSN800_CANNOT_START			:... train too long.
+STR_SKSN800_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Chiba Express Type 1000
+STR_CE1000_NAME					:1000 Type (4 cars)
+STR_CE1000_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {BLUE}Chiba Express Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Leased from Keisei/Keikyu. Cannot be attached to any other train.{}
+STR_CE1000_CANNOT_START			:... train too long. Max. 4 cars.
+STR_CE1000_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Chiba Express Type 3050
+STR_CE3050_NAME						:3050 Type (4 cars)
+STR_CE3050_ADDITIONAL_TEXT			:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {BLUE}Chiba Express Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Leased from Keisei. Cannot be attached to any other train.{}
+STR_CE3050_CANNOT_START				:... train too long. Max. 4 cars.
+STR_CE3050_CANNOT_ATTACH_OTHER		:... no other cars can be attached.
+
+# Chiba Express Type 3100
+STR_CE3100_NAME					:3100 Type (4 cars)
+STR_CE3100_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {BLUE}Chiba Express Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Leased from Keisei. Cannot be attached to any other train.{}
+STR_CE3100_CANNOT_START			:... train too long. Max. 4 cars.
+STR_CE3100_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Chiba Express Type 3150
+STR_CE3150_NAME					:3150 Type (4 cars)
+STR_CE3150_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 4{}{BLACK}Operator: {BLUE}Chiba Express Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Leased from Keisei. Cannot be attached to any other train.{}
+STR_CE3150_CANNOT_START			:... train too long. Max. 4 cars.
+STR_CE3150_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.
+
+# Shibayama Type 3600
+STR_SY3600_NAME					:3600 Type (8 cars)
+STR_SY3600_ADDITIONAL_TEXT		:{BLACK}Gauge:{GOLD} Standard{}{BLACK}Number of cars:{GOLD} 8{}{BLACK}Operator: {GREEN}Shibayama Railway{}{BLACK}Use: {GOLD} Commuter services.{}{GOLD}NOTES: {BLACK}Cannot be attached to any other train.{}
+STR_SY3600_CANNOT_START			:... train too long.
+STR_SY3600_CANNOT_ATTACH_OTHER 	:... no other cars can be attached.

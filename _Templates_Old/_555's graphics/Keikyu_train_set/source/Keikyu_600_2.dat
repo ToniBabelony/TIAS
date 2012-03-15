@@ -1,0 +1,127 @@
+#-------------------------------------------------------------------------------
+#   Keikyu_600_2.dat
+#　　京浜急行　600形(非冷房)
+#
+#   著作権はありません。ご自由にどうぞ。    
+#　　製作者  555 
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=Keikyu M1c_600(non cooler)
+copyright=555
+waytype=electrified_track
+freight=Passagiere
+speed=110
+gear=133
+payload=140
+power=300
+cost=1400000
+weight=35
+RunningCost=46
+Sound=2
+intro_year=1966
+intro_month=4
+retire_year=1972
+retire_month=7
+Constraint[Prev][0]=Keikyu M2c_600(non cooler)
+Constraint[Prev][1]=Keikyu M2c_700(first)
+Constraint[Prev][2]=Keikyu M2c_600(type1)
+Constraint[Prev][3]=Keikyu M2c_600(type2)
+Constraint[Prev][4]=none
+Constraint[Next][0]=Keikyu M2_600(non cooler)
+Constraint[Next][1]=Keikyu M2c_600(non cooler)
+EmptyImage[S]=Keikyu_600_1.0.0
+EmptyImage[E]=Keikyu_600_1.0.1
+EmptyImage[SE]=Keikyu_600_1.0.2
+EmptyImage[SW]=Keikyu_600_1.0.3
+EmptyImage[N]=Keikyu_600_1.0.4
+EmptyImage[W]=Keikyu_600_1.0.5
+EmptyImage[NW]=Keikyu_600_1.0.6
+EmptyImage[NE]=Keikyu_600_1.0.7
+--------------------------------------------------------------------------------
+obj=vehicle
+name=Keikyu M2_600(non cooler)
+copyright=555
+waytype=electrified_track
+freight=Passagiere
+speed=110
+gear=131
+payload=140
+power=300
+cost=1250000
+weight=35
+RunningCost=43
+intro_year=1966
+intro_month=4
+retire_year=1972
+retire_month=7
+Constraint[Prev][0]=Keikyu M1c_600(non cooler)
+Constraint[Prev][1]=Keikyu M1_600(non cooler)
+Constraint[Next][0]=Keikyu M1_600(non cooler)
+EmptyImage[S]=Keikyu_600_1.2.0
+EmptyImage[E]=Keikyu_600_1.2.1
+EmptyImage[SE]=Keikyu_600_1.2.2
+EmptyImage[SW]=Keikyu_600_1.2.3
+EmptyImage[N]=Keikyu_600_1.2.4
+EmptyImage[W]=Keikyu_600_1.2.5
+EmptyImage[NW]=Keikyu_600_1.2.6
+EmptyImage[NE]=Keikyu_600_1.2.7
+-------------------------------------------------------------------------------
+obj=vehicle
+name=Keikyu M1_600(non cooler)
+copyright=555
+waytype=electrified_track
+freight=Passagiere
+speed=110
+gear=131
+payload=140
+power=300
+cost=1250000
+weight=35
+RunningCost=43
+intro_year=1966
+intro_month=4
+retire_year=1972
+retire_month=7
+Constraint[Prev][0]=Keikyu M2_600(non cooler)
+Constraint[Next][0]=Keikyu M2_600(non cooler)
+Constraint[Next][1]=Keikyu M2c_600(non cooler)
+EmptyImage[S]=Keikyu_600_1.1.0
+EmptyImage[E]=Keikyu_600_1.1.1
+EmptyImage[SE]=Keikyu_600_1.1.2
+EmptyImage[SW]=Keikyu_600_1.1.3
+EmptyImage[N]=Keikyu_600_1.1.4
+EmptyImage[W]=Keikyu_600_1.1.5
+EmptyImage[NW]=Keikyu_600_1.1.6
+EmptyImage[NE]=Keikyu_600_1.1.7
+-------------------------------------------------------------------------------
+obj=vehicle
+name=Keikyu M2c_600(non cooler)
+copyright=555
+waytype=electrified_track
+freight=Passagiere
+speed=110
+gear=131
+payload=140
+power=300
+cost=1400000
+weight=35
+RunningCost=46
+intro_year=1966
+intro_month=4
+retire_year=1972
+retire_month=7
+Constraint[Prev][0]=Keikyu M1_600(non cooler)
+Constraint[Prev][1]=Keikyu M1c_600(non cooler)
+Constraint[Next][0]=Keikyu M1c_600(non cooler)
+Constraint[Next][1]=Keikyu M1c_700(first)
+Constraint[Next][2]=Keikyu M1c_600
+Constraint[Next][3]=none
+EmptyImage[S]=Keikyu_600_1.3.0
+EmptyImage[E]=Keikyu_600_1.3.1
+EmptyImage[SE]=Keikyu_600_1.3.2
+EmptyImage[SW]=Keikyu_600_1.3.3
+EmptyImage[N]=Keikyu_600_1.3.4
+EmptyImage[W]=Keikyu_600_1.3.5
+EmptyImage[NW]=Keikyu_600_1.3.6
+EmptyImage[NE]=Keikyu_600_1.3.7
+-------------------------------------------------------------------------------

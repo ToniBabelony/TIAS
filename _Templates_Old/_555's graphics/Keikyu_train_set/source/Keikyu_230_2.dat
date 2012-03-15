@@ -1,0 +1,119 @@
+#-------------------------------------------------------------------------------
+#   Keikyu_230_2.dat
+#　　京浜急行電鉄　230形（現行塗装）
+#
+#   著作権はありません。自由に使ってください。    
+#　　製作者 555
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=Keikyu Mu_230(type2)
+waytype=electrified_track
+freight=Passagiere
+speed=100
+gear=131
+payload=100
+power=372
+cost=900000
+weight=40
+length=7
+RunningCost=61
+Sound=2
+intro_year=1963
+intro_month=4
+retire_year=1978
+retire_month=3
+copyright=555
+Constraint[Next][0]=Keikyu Ms_230(type2)
+Constraint[Next][1]=Keikyu Ts_280(3doors:type2)
+Constraint[Next][2]=Keikyu Ts_280(2doors:type2)
+EmptyImage[S]=Keikyu_230_1.2.0
+EmptyImage[E]=Keikyu_230_1.2.1
+EmptyImage[SE]=Keikyu_230_1.2.2
+EmptyImage[SW]=Keikyu_230_1.2.3
+EmptyImage[N]=Keikyu_230_1.2.4
+EmptyImage[W]=Keikyu_230_1.2.5
+EmptyImage[NW]=Keikyu_230_1.2.6
+EmptyImage[NE]=Keikyu_230_1.2.7
+--------------------------------------------------------------------------------
+obj=vehicle
+name=Keikyu Ms_230(type2)
+waytype=electrified_track
+freight=Passagiere
+speed=100
+gear=131
+payload=100
+power=372
+cost=750000
+weight=40
+length=7
+RunningCost=61
+intro_year=1963
+intro_month=4
+retire_year=1978
+retire_month=3
+copyright=555
+Constraint[Prev][0]=Keikyu Mu_230(type2)
+Constraint[Prev][1]=Keikyu Ts_280(3doors:type2)
+Constraint[Prev][2]=Keikyu Ts_280(2doors:type2)
+EmptyImage[S]=Keikyu_230_1.3.0
+EmptyImage[E]=Keikyu_230_1.3.1
+EmptyImage[SE]=Keikyu_230_1.3.2
+EmptyImage[SW]=Keikyu_230_1.3.3
+EmptyImage[N]=Keikyu_230_1.3.4
+EmptyImage[W]=Keikyu_230_1.3.5
+EmptyImage[NW]=Keikyu_230_1.3.6
+EmptyImage[NE]=Keikyu_230_1.3.7
+--------------------------------------------------------------------------------
+obj=vehicle
+name=Keikyu Ts_280(3doors:type2)
+waytype=electrified_track
+freight=Passagiere
+speed=100
+payload=100
+cost=500000
+weight=28
+length=7
+RunningCost=35
+Sound=2
+intro_year=1963
+intro_month=4
+retire_year=1978
+retire_month=3
+copyright=555
+Constraint[Prev][0]=Keikyu Mu_230(type2)
+Constraint[Prev][1]=Keikyu Ms_230(type2)
+EmptyImage[S]=Keikyu_230_2.3.0
+EmptyImage[E]=Keikyu_230_2.3.1
+EmptyImage[SE]=Keikyu_230_2.3.2
+EmptyImage[SW]=Keikyu_230_2.3.3
+EmptyImage[N]=Keikyu_230_2.3.4
+EmptyImage[W]=Keikyu_230_2.3.5
+EmptyImage[NW]=Keikyu_230_2.3.6
+EmptyImage[NE]=Keikyu_230_2.3.7
+--------------------------------------------------------------------------------
+obj=vehicle
+name=Keikyu Ts_280(2doors:type2)
+waytype=electrified_track
+freight=Passagiere
+speed=100
+payload=100
+cost=500000
+weight=28
+length=7
+RunningCost=35
+intro_year=1963
+intro_month=4
+retire_year=1978
+retire_month=3
+copyright=555
+Constraint[Prev][0]=Keikyu Mu_230(type2)
+Constraint[Prev][1]=Keikyu Ms_230(type2)
+EmptyImage[S]=Keikyu_230_1.4.0
+EmptyImage[E]=Keikyu_230_1.4.1
+EmptyImage[SE]=Keikyu_230_1.4.2
+EmptyImage[SW]=Keikyu_230_1.4.3
+EmptyImage[N]=Keikyu_230_1.4.4
+EmptyImage[W]=Keikyu_230_1.4.5
+EmptyImage[NW]=Keikyu_230_1.4.6
+EmptyImage[NE]=Keikyu_230_1.4.7
+--------------------------------------------------------------------------------

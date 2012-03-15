@@ -1,0 +1,118 @@
+#-------------------------------------------------------------------------------
+#   Keisei_3500_2.dat
+#　　京成3500形セット（未更新車:現行塗装）
+#
+#   著作権はありません。自由に使ってください。    
+#　　CopyLeft 555
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=Keisei M2_3500(front:type2)
+waytype=electrified_track
+freight=Passagiere
+speed=110
+gear=144
+payload=140
+power=200
+cost=1550000
+weight=33
+RunningCost=43
+Sound=2
+intro_year=1993
+intro_month=8
+Constraint[Prev][0]=Keisei M2_3500(back:type2)
+Constraint[Prev][1]=Keisei M1_3500(front:type2)
+Constraint[Prev][2]=Keisei M2_3500(back:type1)
+Constraint[Prev][3]=Keisei M1_3500(front:type1)
+Constraint[Prev][4]=none
+Constraint[Next][0]=Keisei M1_3500(front:type2)
+EmptyImage[S]=Keisei_3500_2.0.0
+EmptyImage[E]=Keisei_3500_2.0.1
+EmptyImage[SE]=Keisei_3500_2.0.2
+EmptyImage[SW]=Keisei_3500_2.0.3
+EmptyImage[N]=Keisei_3500_2.0.4
+EmptyImage[W]=Keisei_3500_2.0.5
+EmptyImage[NW]=Keisei_3500_2.0.6
+EmptyImage[NE]=Keisei_3500_2.0.7
+--------------------------------------------------------------------------------
+obj=vehicle
+name=Keisei M1_3500(front:type2)
+waytype=electrified_track
+freight=Passagiere
+speed=110
+gear=144
+payload=140
+power=400
+cost=14800000
+weight=33
+RunningCost=40
+intro_year=1993
+intro_month=8
+Constraint[Prev][0]=Keisei M2_3500(front:type2)
+Constraint[Next][0]=Keisei M1_3500(back:type2)
+Constraint[Next][1]=Keisei M2_3500(front:type2)
+Constraint[Next][2]=Keisei M1_3500(back:type1)
+Constraint[Next][3]=Keisei M2_3500(front:type1)
+EmptyImage[S]=Keisei_3500_2.1.0
+EmptyImage[E]=Keisei_3500_2.1.1
+EmptyImage[SE]=Keisei_3500_2.1.2
+EmptyImage[SW]=Keisei_3500_2.1.3
+EmptyImage[N]=Keisei_3500_2.1.4
+EmptyImage[W]=Keisei_3500_2.1.5
+EmptyImage[NW]=Keisei_3500_2.1.6
+EmptyImage[NE]=Keisei_3500_2.1.7
+-------------------------------------------------------------------------------
+obj=vehicle
+name=Keisei M1_3500(back:type2)
+waytype=electrified_track
+freight=Passagiere
+speed=110
+gear=144
+payload=140
+power=400
+cost=14800000
+weight=33
+RunningCost=40
+intro_year=1993
+intro_month=8
+Constraint[Prev][0]=Keisei M1_3500(front:type2)
+Constraint[Prev][1]=Keisei M2_3500(back:type2)
+Constraint[Prev][2]=Keisei M1_3500(front:type1)
+Constraint[Prev][3]=Keisei M2_3500(back:type1)
+Constraint[Next][0]=Keisei M2_3500(back:type2)
+EmptyImage[S]=Keisei_3500_2.2.0
+EmptyImage[E]=Keisei_3500_2.2.1
+EmptyImage[SE]=Keisei_3500_2.2.2
+EmptyImage[SW]=Keisei_3500_2.2.3
+EmptyImage[N]=Keisei_3500_2.2.4
+EmptyImage[W]=Keisei_3500_2.2.5
+EmptyImage[NW]=Keisei_3500_2.2.6
+EmptyImage[NE]=Keisei_3500_2.2.7
+-------------------------------------------------------------------------------
+obj=vehicle
+name=Keisei M2_3500(back:type2)
+waytype=electrified_track
+freight=Passagiere
+speed=110
+gear=144
+payload=140
+power=200
+cost=1550000
+weight=33
+RunningCost=43
+intro_year=1993
+intro_month=8
+Constraint[Prev][0]=Keisei M1_3500(back:type2)
+Constraint[Next][0]=Keisei M2_3500(front:type2)
+Constraint[Next][1]=Keisei M1_3500(back:type2)
+Constraint[Next][2]=Keisei M2_3500(front:type1)
+Constraint[Next][3]=Keisei M1_3500(back:type1)
+Constraint[Next][4]=none
+EmptyImage[S]=Keisei_3500_2.3.0
+EmptyImage[E]=Keisei_3500_2.3.1
+EmptyImage[SE]=Keisei_3500_2.3.2
+EmptyImage[SW]=Keisei_3500_2.3.3
+EmptyImage[N]=Keisei_3500_2.3.4
+EmptyImage[W]=Keisei_3500_2.3.5
+EmptyImage[NW]=Keisei_3500_2.3.6
+EmptyImage[NE]=Keisei_3500_2.3.7
+-------------------------------------------------------------------------------

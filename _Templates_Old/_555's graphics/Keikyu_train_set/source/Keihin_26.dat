@@ -1,0 +1,34 @@
+#-------------------------------------------------------------------------------
+#   Keihin_26.dat
+#　　京浜急行電鉄　26号形電車
+#
+#   著作権はありません。自由に使ってください。    
+#　　製作者 555
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=Keihin Mc_26
+copyright=555
+waytype=electrified_track
+freight=Passagiere
+speed=90
+gear=109
+payload=90
+power=147
+cost=630000
+weight=28
+length=7
+RunningCost=97
+Sound=2
+intro_year=1911
+intro_month=4
+retire_year=1947
+retire_month=3
+EmptyImage[S]=Keihin_1_26_29.1.0
+EmptyImage[E]=Keihin_1_26_29.1.1
+EmptyImage[SE]=Keihin_1_26_29.1.2
+EmptyImage[SW]=Keihin_1_26_29.1.3
+EmptyImage[N]=Keihin_1_26_29.1.4
+EmptyImage[W]=Keihin_1_26_29.1.5
+EmptyImage[NW]=Keihin_1_26_29.1.6
+EmptyImage[NE]=Keihin_1_26_29.1.7
+--------------------------------------------------------------------------------

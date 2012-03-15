@@ -1,0 +1,116 @@
+#-------------------------------------------------------------------------------
+#   Chiba_Exp_1000.dat
+#   千葉急行電鉄 1000形
+#
+#   著作権はありません。自由に使ってください。    
+#　　CopyLeft 555
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=Chiba_Exp M2c_1000(front)
+waytype=electrified_track
+freight=Passagiere
+speed=110
+gear=149
+payload=140
+power=300
+cost=1500000
+weight=35
+RunningCost=48
+Sound=2
+intro_year=1992
+intro_month=1
+retire_year=1994
+retire_month=1
+Constraint[Prev][0]=Chiba_Exp M2c_1000(back)
+Constraint[Prev][1]=Keisei M2c_1000(back)
+Constraint[Prev][2]=none
+Constraint[Next][0]=Chiba_Exp M1_1000(front)
+EmptyImage[S]=Chiba_Exp_1000.0.0
+EmptyImage[E]=Chiba_Exp_1000.0.1
+EmptyImage[SE]=Chiba_Exp_1000.0.2
+EmptyImage[SW]=Chiba_Exp_1000.0.3
+EmptyImage[N]=Chiba_Exp_1000.0.4
+EmptyImage[W]=Chiba_Exp_1000.0.5
+EmptyImage[NW]=Chiba_Exp_1000.0.6
+EmptyImage[NE]=Chiba_Exp_1000.0.7
+--------------------------------------------------------------------------------
+obj=vehicle
+name=Chiba_Exp M1_1000(front)
+waytype=electrified_track
+freight=Passagiere
+speed=110
+gear=149
+payload=140
+power=300
+cost=450000
+weight=35
+RunningCost=46
+intro_year=1992
+intro_month=1
+retire_year=1994
+retire_month=1
+Constraint[Prev][0]=Chiba_Exp M2c_1000(front)
+Constraint[Next][0]=Chiba_Exp M1_1000(back)
+EmptyImage[S]=Chiba_Exp_1000.1.0
+EmptyImage[E]=Chiba_Exp_1000.1.1
+EmptyImage[SE]=Chiba_Exp_1000.1.2
+EmptyImage[SW]=Chiba_Exp_1000.1.3
+EmptyImage[N]=Chiba_Exp_1000.1.4
+EmptyImage[W]=Chiba_Exp_1000.1.5
+EmptyImage[NW]=Chiba_Exp_1000.1.6
+EmptyImage[NE]=Chiba_Exp_1000.1.7
+-------------------------------------------------------------------------------
+obj=vehicle
+name=Chiba_Exp M1_1000(back)
+waytype=electrified_track
+freight=Passagiere
+speed=110
+gear=149
+payload=140
+power=300
+cost=1450000
+weight=35
+RunningCost=46
+intro_year=1992
+intro_month=1
+retire_year=1994
+retire_month=1
+Constraint[Prev][0]=Chiba_Exp M1_1000(front)
+Constraint[Next][0]=Chiba_Exp M2c_1000(back)
+EmptyImage[S]=Chiba_Exp_1000.1.4
+EmptyImage[E]=Chiba_Exp_1000.1.5
+EmptyImage[SE]=Chiba_Exp_1000.1.6
+EmptyImage[SW]=Chiba_Exp_1000.1.7
+EmptyImage[N]=Chiba_Exp_1000.1.0
+EmptyImage[W]=Chiba_Exp_1000.1.1
+EmptyImage[NW]=Chiba_Exp_1000.1.2
+EmptyImage[NE]=Chiba_Exp_1000.1.3
+--------------------------------------------------------------------------------
+obj=vehicle
+name=Chiba_Exp M2c_1000(back)
+waytype=electrified_track
+freight=Passagiere
+speed=110
+gear=149
+payload=140
+power=300
+cost=1500000
+weight=35
+RunningCost=48
+intro_year=1992
+intro_month=1
+retire_year=1994
+retire_month=1
+Constraint[Prev][0]=Chiba_Exp M1_1000(back)
+Constraint[Next][0]=Chiba_Exp M2c_1000(front)
+Constraint[Next][1]=Keisei M2c_1000(front)
+Constraint[Next][2]=none
+EmptyImage[S]=Chiba_Exp_1000.2.0
+EmptyImage[E]=Chiba_Exp_1000.2.1
+EmptyImage[SE]=Chiba_Exp_1000.2.2
+EmptyImage[SW]=Chiba_Exp_1000.2.3
+EmptyImage[N]=Chiba_Exp_1000.2.4
+EmptyImage[W]=Chiba_Exp_1000.2.5
+EmptyImage[NW]=Chiba_Exp_1000.2.6
+EmptyImage[NE]=Chiba_Exp_1000.2.7
+-------------------------------------------------------------------------------

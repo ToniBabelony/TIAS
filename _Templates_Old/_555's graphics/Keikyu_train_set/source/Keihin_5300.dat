@@ -1,0 +1,32 @@
+#-------------------------------------------------------------------------------
+#   Keihin_5300.dat
+#　　京浜急行電鉄　5300形(旧塗装)
+#
+#   著作権はありません。自由に使ってください。    
+#　　製作者 555
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=Keihin Mc_5300
+waytype=electrified_track
+freight=Passagiere
+speed=100
+gear=122
+payload=140
+power=448
+cost=900000
+weight=40
+RunningCost=61
+Sound=2
+intro_year=1942
+intro_month=3
+retire_year=1955
+retire_month=3
+EmptyImage[S]=Keikyu_300.0.0
+EmptyImage[E]=Keikyu_300.0.1
+EmptyImage[SE]=Keikyu_300.0.2
+EmptyImage[SW]=Keikyu_300.0.3
+EmptyImage[N]=Keikyu_300.0.4
+EmptyImage[W]=Keikyu_300.0.5
+EmptyImage[NW]=Keikyu_300.0.6
+EmptyImage[NE]=Keikyu_300.0.7
+--------------------------------------------------------------------------------
